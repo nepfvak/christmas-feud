@@ -392,7 +392,7 @@ button.chip:hover svg { transform: translateY(-3px) rotate(-3deg); }
    Hide the children's backs too, and drop the front entirely once the flip passes halfway. */
 .slot-front * { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
 .slot-front { transform: translateZ(1px); transition: visibility 0s linear 0s; }
-.slot.revealed .slot-front { visibility: hidden; transition: visibility 0s linear 0.3s; }
+.slot.revealed .slot-front { visibility: hidden; transition: visibility 0s linear 0.18s; }
 .slot-back { z-index: 1; }
 
 /* ---------- team panels ---------- */
