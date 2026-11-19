@@ -9,8 +9,10 @@
  *                             spellings by the answer matcher.
  *
  * Turning pageviews into "survey points":
- *   For each candidate we measure "holiday attention": December views minus that
- *   article's typical month (median Feb-Oct), averaged over the sample years.
+ *   For each candidate we measure December views and the "holiday bump": December
+ *   views minus that article's typical month (median Feb-Oct), averaged over the
+ *   sample years. The ranking signal is the geometric mean of the two, so an answer
+ *   has to be both well known and seasonal to rank high.
  *   A real survey asks 100 people for ONE answer each, which flattens extremes
  *   compared to raw web traffic, so we apply a documented damping exponent
  *   (SURVEY_ALPHA) and then share 100 "people" out: the top 8 answers split 92,
@@ -29,6 +31,8 @@ const YEARS = [2023, 2024, 2025];
 // Calibrated so boards feel like the show: 7-answer boards sum to ~88 and two players
 // who both name top-2 answers in the Snowball Sprint land just over 200.
 const SURVEY_ALPHA = Number(process.env.SURVEY_ALPHA ?? 0.8);
+/** 0 = rank purely by everyday commonness, 1 = purely by the holiday bump; 0.5 = needs both */
+const HOLIDAY_WEIGHT = Number(process.env.HOLIDAY_WEIGHT ?? 0.55);
 /** the top TOP_K answers share TOP_SHARE of the 100 "people"; the tail shares the rest */
 const TOP_K = 8;
 const TOP_SHARE = 92;
@@ -162,14 +166,52 @@ function cleanAliases(list: string[]): string[] {
     .filter((a) => a.length >= 3 && a.length <= 60 && /[a-z]/i.test(a) && !/^[A-Z0-9.\-]{2,5}$/.test(a) && !/[Ѐ-￿]/.test(a));
 }
 
-// ---------- 4. Score ----------
+// ---------- 4. Everyday-English commonness (Datamuse / Google Books Ngram) ----------
+// Wikipedia lookups measure curiosity (people look up eggnog because they're unsure
+// what it is). A survey measures what people SAY, which tracks how common a word is
+// in everyday English. Datamuse returns frequency per million words from Google Books.
+const termsFor = (c: { label: string; term?: string }) =>
+  (c.term ? [c.term] : c.label.split(" / ")).map((t) => t.toLowerCase().replace(/^(the|a|an) /, "").replace(/[!?.]/g, "").trim());
+const allTerms = [...new Set(QUESTION_BANK.flatMap((q) => q.candidates.flatMap(termsFor)))];
+const freq = new Map<string, number>();
+await pool(allTerms, 4, async (term) => {
+  const url = `https://api.datamuse.com/words?sp=${encodeURIComponent(term)}&md=f&max=1`;
+  const data = await cachedJson("dm_" + term, url);
+  // Datamuse may answer with the singular ("snow angel" for "snow angels"): accept close forms only
+  const close = (w: string) => w === term || ((term.startsWith(w) || w.startsWith(term)) && Math.abs(w.length - term.length) <= 2);
+  const hit = Array.isArray(data) && data[0] && close(data[0].word) ? data[0] : null;
+  const tag = hit?.tags?.find((t: string) => t.startsWith("f:"));
+  freq.set(term, tag ? Number(tag.slice(2)) : 0);
+});
+const unknownTerms = allTerms.filter((t) => !freq.get(t));
+if (unknownTerms.length) console.warn(`⚠  ${unknownTerms.length} terms unknown to Datamuse (give them a "term"): ${unknownTerms.join(", ")}`);
+/** floor so a phrase Datamuse doesn't know isn't zeroed out entirely */
+const commonness = (c: { label: string; term?: string }) => Math.max(0.02, ...termsFor(c).map((t) => freq.get(t) ?? 0));
+
+// Redirect sanity check: "Ho ho ho" silently redirects to "Santa Claus" and would
+// inherit all of Santa's traffic. Warn when an article lands somewhere unrelated.
+for (const q of QUESTION_BANK) {
+  for (const c of q.candidates) {
+    for (const t of c.articles) {
+      const r = resolved.get(t);
+      if (!r || r.title === t) continue;
+      const words = (x: string) => x.toLowerCase().replace(/[^a-z ]/g, " ").split(/\s+/).filter((w) => w.length > 3);
+      const overlap = words(r.title).some((w) => words(c.label + " " + t).some((v) => v.startsWith(w.slice(0, 5)) || w.startsWith(v.slice(0, 5))));
+      if (!overlap) console.warn(`⚠  [${q.id}] "${c.label}": "${t}" redirects to "${r.title}" - check this is right`);
+    }
+  }
+}
+
+// ---------- 5. Score ----------
 interface OutAnswer {
   label: string;
   points: number;
   /** average December pageviews */
   views: number;
-  /** average extra December pageviews vs. a typical month - the scoring signal */
+  /** average extra December pageviews vs. a typical month (holiday signal) */
   excess: number;
+  /** Datamuse frequency per million words (commonness signal) */
+  frequency: number;
   aliases: string[];
   articles: string[];
 }
@@ -184,16 +226,27 @@ const questions = QUESTION_BANK.map((q) => {
       return qid ? cleanAliases(aliasesByQid.get(qid) ?? []) : [];
     });
     const aliases = [...new Set([c.label, ...c.label.split(" / "), ...(c.aliases ?? []), ...wd].map((s) => s.trim()).filter(Boolean))];
-    return { label: c.label, views: v, excess: ex, aliases, articles: c.articles.map((t) => resolved.get(t)?.title ?? t) };
+    return { label: c.label, views: v, excess: ex, common: commonness(c), aliases, articles: c.articles.map((t) => resolved.get(t)?.title ?? t) };
   });
-  scored.sort((a, b) => b.excess - a.excess);
-  const weights = scored.map((s) => Math.pow(Math.max(s.excess, 0), SURVEY_ALPHA));
+  // A good survey answer is BOTH a word people commonly use (Datamuse) AND tied to the
+  // holidays (Wikipedia December bump). The weighted geometric mean needs both:
+  // "Krampus" (seasonal but rare) and "Rain" (common but not seasonal) both sink.
+  // Titles (movies, songs, toys) use Wikipedia popularity instead: word frequency is
+  // meaningless for a name like "Frozen" or "Monopoly".
+  const isTitle = q.kind === "title";
+  const blend = (x: { views: number; excess: number; common: number }) =>
+    isTitle
+      ? Math.pow(Math.max(x.views, 1), 0.5) * Math.pow(Math.max(x.excess, 1), 0.5)
+      : Math.pow(x.common, 1 - HOLIDAY_WEIGHT) * Math.pow(Math.max(x.excess, 1), HOLIDAY_WEIGHT);
+  scored.sort((a, b) => blend(b) - blend(a));
+  const weights = scored.map((s) => Math.pow(blend(s), SURVEY_ALPHA));
   // Like a real 100-person survey: the top answers take most of the responses and a
   // long tail of "other" answers shares the rest.
   const headW = weights.slice(0, TOP_K).reduce((a, b) => a + b, 0) || 1;
   const tailW = weights.slice(TOP_K).reduce((a, b) => a + b, 0) || 1;
-  const answers: OutAnswer[] = scored.map((s, i) => ({
+  const answers: OutAnswer[] = scored.map(({ common, ...s }, i) => ({
     ...s,
+    frequency: common,
     points: Math.max(1, Math.round(i < TOP_K ? (weights[i] / headW) * TOP_SHARE : (weights[i] / tailW) * (100 - TOP_SHARE))),
   }));
   // Keep points strictly non-increasing after rounding (ties are fine, inversions are not).
@@ -204,11 +257,12 @@ const questions = QUESTION_BANK.map((q) => {
 const out = {
   generatedAt: new Date().toISOString(),
   method: {
-    source: "Wikimedia Pageviews API (en.wikipedia, human traffic) + Wikidata aliases",
+    source: "Wikimedia Pageviews (holiday spike) + Datamuse word frequency (commonness) + Wikidata aliases",
     window: `December ${YEARS[0]}-${YEARS.at(-1)} vs. each year's typical month (median Feb-Oct)`,
     surveyAlpha: SURVEY_ALPHA,
     topShare: `top ${TOP_K} answers share ${TOP_SHARE} of 100 responses`,
-    note: "Points = share of a 100-person 'survey' derived from damped excess December pageviews (holiday attention).",
+    holidayWeight: HOLIDAY_WEIGHT,
+    note: "Points = share of a 100-person 'survey' from commonness in everyday English x the December spike in Wikipedia lookups (common AND seasonal).",
   },
   questions,
 };

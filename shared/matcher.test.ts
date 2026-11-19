@@ -49,15 +49,16 @@ describe("matchAnswer on real survey data", () => {
     ["snow-activity", "snowman", "Build a Snowman"],
     ["snow-activity", "make a snow man", "Build a Snowman"],
     ["snow-activity", "snowball fight", "Snowball Fight"],
-    ["xmas-singer", "mariah", "Mariah Carey"],
-    ["xmas-singer", "michael buble", "Michael Bublé"],
     ["winter-animal", "polar bears", "Polar Bear"],
     ["winter-animal", "penguins", "Penguin"],
-    ["hanukkah", "latkes", "Latkes"],
-    ["hanukkah", "jelly donuts", "Sufganiyot / Jelly Donuts"],
     ["xmas-dinner", "mac n cheese", "Mac and Cheese"],
     ["new-years", "fireworks", "Fireworks"],
-    ["fruit-nut", "chestnuts roasting", "Chestnuts"],
+    ["santa", "presents", "Presents"],
+    ["santa", "the north pole", "North Pole"],
+    ["xmas-candy", "m and ms", "M&M's"],
+    ["xmas-candy", "reeses", "Reese's"],
+    ["winter-weather", "snowstorm", "Blizzard"],
+    ["xmas-dinner", "mashed potatos", "Mashed Potatoes"],
   ];
   it.each(cases)("[%s] %s -> %s", (id, text, expected) => {
     expect(guess(id, text)).toBe(expected);

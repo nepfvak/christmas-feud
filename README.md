@@ -8,7 +8,7 @@ One laptop drives the big screen (projector/TV); everyone else plays on their ph
 - **Join by room code or QR**, or pick from **"Games on your network"** on the home page
 - **Custom names + avatars**: 8 characters (snowman, reindeer, elf, penguin…), 8 colors, hats, extras, faces
 - **The classic survey-show format** (see [How a game works](#how-a-game-works))
-- **Real data**: every answer's points come from how many people actually looked it up on Wikipedia during the holidays
+- **Real data**: answers are ranked by how common they are in everyday English (Datamuse) × how much they spike at the holidays (Wikipedia)
 - **Smart answer judging**: typos, plurals, nicknames and alternate titles are accepted ("rudolf", "egg nog", "national lampoons")
 - **Synthesized sound + optional voice host**: no copyrighted show audio, works offline
 - **$0 to run** (no database, no API keys)
@@ -100,7 +100,7 @@ The rules follow the classic TV survey format, re-themed for the holidays:
 - **F**: fullscreen · **M**: mute
 - **☰ menu → Judge's override**: reveal an answer manually, undo a strike, award a face-off, skip a round
 - **📱 Phone remote**: scan a private QR to see *every answer* on your own phone and judge from anywhere in the room (like the host's cue cards)
-- **Voice**: the browser reads each question aloud (toggle in the menu)
+- **Voice**: a recorded announcer calls the rounds, face-offs, steals and winners (toggle in the menu)
 
 In the lobby you can rename teams, click a player to move them to the other team, shuffle teams, remove players, and choose the target score.
 
@@ -108,19 +108,19 @@ In the lobby you can rename teams, click a player to move them to the other team
 
 ## Where the survey answers come from
 
-Real game shows survey 100 people. We use something anyone can verify: **what millions of people actually looked up during the holidays.**
+Real game shows survey 100 people. We can't do that, so we combine two public signals that anyone can check:
 
-`npm run questions` rebuilds `data/questions.json` from three free public APIs, no key needed:
+1. **How common the answer is in everyday English.** The [Datamuse API](https://www.datamuse.com/api/) gives word frequency from Google Books. "Turkey" and "snow" are common words; "Krampus" and "wassail" are not.
+2. **How tied it is to the holidays.** The **Wikimedia Pageviews API** shows how much *more* people look each answer up on Wikipedia in December than in a typical month (median of Feb–Oct, averaged over 2023–2025).
 
-1. **MediaWiki API**: resolves each answer's Wikipedia article (following redirects) and finds its Wikidata ID.
-2. **Wikimedia Pageviews API**: monthly human pageviews (bots excluded) for **2023–2025**.
-3. **Wikidata API**: official alternate names, which become extra accepted spellings.
+A good survey answer needs **both**, so the score is a weighted geometric mean of the two.
+For **titles** (movies, songs, carols, TV specials, toys) word frequency means nothing ("Frozen", "Monopoly"), so those use Wikipedia popularity × the holiday spike instead.
 
-**Scoring:** for each answer we measure its **holiday attention**: December pageviews minus that article's *typical month* (median of Feb–Oct).
-This rewards things people look up *because it's the holidays* (eggnog, poinsettias, Home Alone) rather than things that are just always popular (basketball, coffee).
-The numbers are then turned into a 100-person "survey": a documented damping curve (a real survey flattens extremes compared to raw web traffic), then the top 8 answers share 92 of the 100 responses and the long tail shares the rest, just like the "other" bucket in a real survey.
-These two settings are calibrated so a 7-answer board totals about 88 points and two strong Snowball Sprint players can just reach 200.
-The data source is printed on the game board, and the raw pageview counts are stored with every answer.
+Why not just Wikipedia lookups? People look things up when they're *unsure* what they are. Eggnog gets 14× more December lookups than hot chocolate, because everyone already knows hot chocolate.
+That's also why the answer lists themselves are curated: **only answers a typical US student would actually say**. The data decides the order; the curation keeps it fair.
+
+`npm run questions` rebuilds `data/questions.json` from these free APIs (plus **Wikidata** for alternate spellings), no keys needed. It warns about missing articles, misleading redirects (like "Ho ho ho" → *Santa Claus*), and words Datamuse doesn't know.
+Points are then shared out like a 100-person survey: the top 8 answers split 92 points, and the long tail splits the rest.
 
 ### Adding your own questions
 Edit `data/question-bank.ts`. Each answer just needs a label and its Wikipedia article title(s):
@@ -137,7 +137,7 @@ Edit `data/question-bank.ts`. Each answer just needs a label and its Wikipedia a
   ],
 },
 ```
-Then run `npm run questions`. It warns you about any title it can't find.
+Add `kind: "title"` for questions whose answers are names (movies, songs). Then run `npm run questions`; it warns you about anything it can't find.
 
 ---
 

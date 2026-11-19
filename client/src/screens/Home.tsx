@@ -82,7 +82,7 @@ export function Home() {
             </ul>
           </div>
         </div>
-        <p className="data-credit">Every answer is scored from how many people really looked it up on Wikipedia during the holidays.</p>
+        <p className="data-credit">Every answer is scored from real public data: how common it is in everyday English, and how much it spikes at the holidays.</p>
       </main>
     </div>
   );
