@@ -1,0 +1,6008 @@
+{
+  "generatedAt": "2026-11-19T22:03:19.755Z",
+  "method": {
+    "source": "Wikimedia Pageviews API (en.wikipedia, human traffic) + Wikidata aliases",
+    "window": "December 2023-2025 vs. each year's typical month (median Feb-Oct)",
+    "surveyAlpha": 0.8,
+    "topShare": "top 8 answers share 92 of 100 responses",
+    "note": "Points = share of a 100-person 'survey' derived from damped excess December pageviews (holiday attention)."
+  },
+  "questions": [
+    {
+      "id": "xmas-movie",
+      "prompt": "Name a Christmas movie people watch every December.",
+      "short": "A Christmas movie",
+      "answers": [
+        {
+          "label": "The Grinch",
+          "views": 1092743,
+          "excess": 1039645,
+          "aliases": [
+            "The Grinch",
+            "grinch",
+            "how the grinch stole christmas"
+          ],
+          "articles": [
+            "How the Grinch Stole Christmas (2000 film)",
+            "The Grinch (film)"
+          ],
+          "points": 15
+        },
+        {
+          "label": "Home Alone",
+          "views": 1088020,
+          "excess": 1007749,
+          "aliases": [
+            "Home Alone",
+            "home alone 1"
+          ],
+          "articles": [
+            "Home Alone"
+          ],
+          "points": 15
+        },
+        {
+          "label": "Red One",
+          "views": 871686,
+          "excess": 803591,
+          "aliases": [
+            "Red One"
+          ],
+          "articles": [
+            "Red One (film)"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Love Actually",
+          "views": 844003,
+          "excess": 776783,
+          "aliases": [
+            "Love Actually"
+          ],
+          "articles": [
+            "Love Actually"
+          ],
+          "points": 12
+        },
+        {
+          "label": "It's a Wonderful Life",
+          "views": 762647,
+          "excess": 720967,
+          "aliases": [
+            "It's a Wonderful Life",
+            "wonderful life"
+          ],
+          "articles": [
+            "It's a Wonderful Life"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Christmas Vacation",
+          "views": 564712,
+          "excess": 544276,
+          "aliases": [
+            "Christmas Vacation",
+            "national lampoons christmas vacation",
+            "griswolds",
+            "National Lampoon's Christmas Vacation"
+          ],
+          "articles": [
+            "National Lampoon's Christmas Vacation"
+          ],
+          "points": 9
+        },
+        {
+          "label": "A Christmas Story",
+          "views": 560500,
+          "excess": 543349,
+          "aliases": [
+            "A Christmas Story",
+            "red ryder",
+            "you'll shoot your eye out",
+            "Christmas Story"
+          ],
+          "articles": [
+            "A Christmas Story"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Die Hard",
+          "views": 585480,
+          "excess": 521113,
+          "aliases": [
+            "Die Hard"
+          ],
+          "articles": [
+            "Die Hard"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Elf",
+          "views": 539166,
+          "excess": 512899,
+          "aliases": [
+            "Elf",
+            "buddy the elf",
+            "will ferrell elf"
+          ],
+          "articles": [
+            "Elf (film)"
+          ],
+          "points": 1
+        },
+        {
+          "label": "The Polar Express",
+          "views": 534729,
+          "excess": 505621,
+          "aliases": [
+            "The Polar Express",
+            "polar express",
+            "Polar Express"
+          ],
+          "articles": [
+            "The Polar Express (film)"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Home Alone 2",
+          "views": 478145,
+          "excess": 450268,
+          "aliases": [
+            "Home Alone 2",
+            "lost in new york"
+          ],
+          "articles": [
+            "Home Alone 2: Lost in New York"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Miracle on 34th Street",
+          "views": 469543,
+          "excess": 450140,
+          "aliases": [
+            "Miracle on 34th Street",
+            "miracle on 34th"
+          ],
+          "articles": [
+            "Miracle on 34th Street",
+            "Miracle on 34th Street (1994 film)"
+          ],
+          "points": 1
+        },
+        {
+          "label": "White Christmas",
+          "views": 437346,
+          "excess": 427689,
+          "aliases": [
+            "White Christmas"
+          ],
+          "articles": [
+            "White Christmas (film)"
+          ],
+          "points": 1
+        },
+        {
+          "label": "The Holiday",
+          "views": 379556,
+          "excess": 344513,
+          "aliases": [
+            "The Holiday",
+            "Holiday"
+          ],
+          "articles": [
+            "The Holiday"
+          ],
+          "points": 1
+        },
+        {
+          "label": "The Santa Clause",
+          "views": 293900,
+          "excess": 283631,
+          "aliases": [
+            "The Santa Clause",
+            "santa clause"
+          ],
+          "articles": [
+            "The Santa Clause"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Klaus",
+          "views": 241429,
+          "excess": 227262,
+          "aliases": [
+            "Klaus"
+          ],
+          "articles": [
+            "Klaus (film)"
+          ],
+          "points": 1
+        },
+        {
+          "label": "The Muppet Christmas Carol",
+          "views": 224288,
+          "excess": 216244,
+          "aliases": [
+            "The Muppet Christmas Carol",
+            "muppets christmas carol",
+            "muppet christmas",
+            "Muppet Christmas Carol"
+          ],
+          "articles": [
+            "The Muppet Christmas Carol"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Jingle All the Way",
+          "views": 227810,
+          "excess": 213325,
+          "aliases": [
+            "Jingle All the Way"
+          ],
+          "articles": [
+            "Jingle All the Way"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Nightmare Before Christmas",
+          "views": 224459,
+          "excess": 171556,
+          "aliases": [
+            "Nightmare Before Christmas",
+            "nightmare before christmas",
+            "jack skellington"
+          ],
+          "articles": [
+            "The Nightmare Before Christmas"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Gremlins",
+          "views": 212946,
+          "excess": 160150,
+          "aliases": [
+            "Gremlins"
+          ],
+          "articles": [
+            "Gremlins"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Arthur Christmas",
+          "views": 105178,
+          "excess": 97118,
+          "aliases": [
+            "Arthur Christmas"
+          ],
+          "articles": [
+            "Arthur Christmas"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "radio-song",
+      "prompt": "Name a Christmas song you always hear on the radio.",
+      "short": "A Christmas radio song",
+      "answers": [
+        {
+          "label": "All I Want for Christmas Is You",
+          "views": 386526,
+          "excess": 371562,
+          "aliases": [
+            "All I Want for Christmas Is You",
+            "all i want for christmas",
+            "mariah carey"
+          ],
+          "articles": [
+            "All I Want for Christmas Is You"
+          ],
+          "points": 18
+        },
+        {
+          "label": "Last Christmas",
+          "views": 363794,
+          "excess": 351903,
+          "aliases": [
+            "Last Christmas",
+            "wham"
+          ],
+          "articles": [
+            "Last Christmas"
+          ],
+          "points": 17
+        },
+        {
+          "label": "Do They Know It's Christmas?",
+          "views": 248020,
+          "excess": 232345,
+          "aliases": [
+            "Do They Know It's Christmas?",
+            "do they know its christmas",
+            "Do They Know It's Christmas Time"
+          ],
+          "articles": [
+            "Do They Know It's Christmas?"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Feliz Navidad",
+          "views": 230700,
+          "excess": 225809,
+          "aliases": [
+            "Feliz Navidad"
+          ],
+          "articles": [
+            "Feliz Navidad (song)"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Rockin' Around the Christmas Tree",
+          "views": 215247,
+          "excess": 210756,
+          "aliases": [
+            "Rockin' Around the Christmas Tree",
+            "rocking around the christmas tree"
+          ],
+          "articles": [
+            "Rockin' Around the Christmas Tree"
+          ],
+          "points": 11
+        },
+        {
+          "label": "White Christmas",
+          "views": 165058,
+          "excess": 156951,
+          "aliases": [
+            "White Christmas",
+            "im dreaming of a white christmas"
+          ],
+          "articles": [
+            "White Christmas (song)"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Happy Xmas (War Is Over)",
+          "views": 125548,
+          "excess": 119753,
+          "aliases": [
+            "Happy Xmas (War Is Over)",
+            "war is over",
+            "happy xmas",
+            "happy christmas war is over",
+            "Happy Xmas",
+            "War is over if you want it"
+          ],
+          "articles": [
+            "Happy Xmas (War Is Over)"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Santa Baby",
+          "views": 84864,
+          "excess": 81089,
+          "aliases": [
+            "Santa Baby"
+          ],
+          "articles": [
+            "Santa Baby"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Wonderful Christmastime",
+          "views": 74062,
+          "excess": 71891,
+          "aliases": [
+            "Wonderful Christmastime"
+          ],
+          "articles": [
+            "Wonderful Christmastime"
+          ],
+          "points": 1
+        },
+        {
+          "label": "It's Beginning to Look a Lot Like Christmas",
+          "views": 72130,
+          "excess": 70215,
+          "aliases": [
+            "It's Beginning to Look a Lot Like Christmas",
+            "look a lot like christmas"
+          ],
+          "articles": [
+            "It's Beginning to Look a Lot Like Christmas"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Jingle Bell Rock",
+          "views": 71612,
+          "excess": 69107,
+          "aliases": [
+            "Jingle Bell Rock"
+          ],
+          "articles": [
+            "Jingle Bell Rock"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Let It Snow!",
+          "views": 54571,
+          "excess": 51678,
+          "aliases": [
+            "Let It Snow!",
+            "let it snow",
+            "Let It Snow! Let It Snow! Let It Snow!",
+            "Let It Snow",
+            "Let It Snow, Let It Snow, Let It Snow"
+          ],
+          "articles": [
+            "Let It Snow! Let It Snow! Let It Snow!"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Most Wonderful Time of the Year",
+          "views": 48715,
+          "excess": 46837,
+          "aliases": [
+            "Most Wonderful Time of the Year",
+            "most wonderful time",
+            "its the most wonderful time of the year",
+            "It's the Most Wonderful Time of the Year"
+          ],
+          "articles": [
+            "It's the Most Wonderful Time of the Year"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Sleigh Ride",
+          "views": 47748,
+          "excess": 45804,
+          "aliases": [
+            "Sleigh Ride"
+          ],
+          "articles": [
+            "Sleigh Ride"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Underneath the Tree",
+          "views": 46145,
+          "excess": 44894,
+          "aliases": [
+            "Underneath the Tree"
+          ],
+          "articles": [
+            "Underneath the Tree"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Blue Christmas",
+          "views": 45497,
+          "excess": 43711,
+          "aliases": [
+            "Blue Christmas"
+          ],
+          "articles": [
+            "Blue Christmas (song)"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Run Rudolph Run",
+          "views": 39500,
+          "excess": 38267,
+          "aliases": [
+            "Run Rudolph Run",
+            "Run Run Rudolph"
+          ],
+          "articles": [
+            "Run Rudolph Run"
+          ],
+          "points": 1
+        },
+        {
+          "label": "A Holly Jolly Christmas",
+          "views": 39085,
+          "excess": 36511,
+          "aliases": [
+            "A Holly Jolly Christmas",
+            "holly jolly christmas",
+            "holly jolly"
+          ],
+          "articles": [
+            "A Holly Jolly Christmas"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Santa Tell Me",
+          "views": 34838,
+          "excess": 33233,
+          "aliases": [
+            "Santa Tell Me"
+          ],
+          "articles": [
+            "Santa Tell Me"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Mistletoe",
+          "views": 14789,
+          "excess": 13702,
+          "aliases": [
+            "Mistletoe",
+            "justin bieber mistletoe"
+          ],
+          "articles": [
+            "Mistletoe (Justin Bieber song)"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "carol",
+      "prompt": "Name a traditional Christmas carol.",
+      "short": "A traditional carol",
+      "answers": [
+        {
+          "label": "The Twelve Days of Christmas",
+          "views": 646254,
+          "excess": 625884,
+          "aliases": [
+            "The Twelve Days of Christmas",
+            "12 days of christmas",
+            "twelve days of christmas",
+            "The Twelve Days of Chriſtmas"
+          ],
+          "articles": [
+            "The Twelve Days of Christmas (song)"
+          ],
+          "points": 30
+        },
+        {
+          "label": "Jingle Bells",
+          "views": 271817,
+          "excess": 262171,
+          "aliases": [
+            "Jingle Bells",
+            "The One Horse Open Sleigh"
+          ],
+          "articles": [
+            "Jingle Bells"
+          ],
+          "points": 15
+        },
+        {
+          "label": "Carol of the Bells",
+          "views": 199965,
+          "excess": 192060,
+          "aliases": [
+            "Carol of the Bells"
+          ],
+          "articles": [
+            "Carol of the Bells"
+          ],
+          "points": 12
+        },
+        {
+          "label": "O Holy Night",
+          "views": 154254,
+          "excess": 150013,
+          "aliases": [
+            "O Holy Night",
+            "oh holy night",
+            "Minuit, chrétiens",
+            "Noël",
+            "Minuit chrétiens",
+            "Midnight, Christians"
+          ],
+          "articles": [
+            "O Holy Night"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Silent Night",
+          "views": 143000,
+          "excess": 136317,
+          "aliases": [
+            "Silent Night",
+            "Stille Nacht Heilige Nacht",
+            "Stille Nacht, heilige Nacht",
+            "Stille Nacht! Heilige Nacht!",
+            "Silent night"
+          ],
+          "articles": [
+            "Silent Night"
+          ],
+          "points": 9
+        },
+        {
+          "label": "The Little Drummer Boy",
+          "views": 101311,
+          "excess": 97591,
+          "aliases": [
+            "The Little Drummer Boy",
+            "little drummer boy",
+            "Carol of the Drum"
+          ],
+          "articles": [
+            "The Little Drummer Boy"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Good King Wenceslas",
+          "views": 85932,
+          "excess": 79312,
+          "aliases": [
+            "Good King Wenceslas"
+          ],
+          "articles": [
+            "Good King Wenceslas"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Hark! The Herald Angels Sing",
+          "views": 73287,
+          "excess": 70399,
+          "aliases": [
+            "Hark! The Herald Angels Sing",
+            "hark the herald",
+            "herald angels sing",
+            "Hark the Herald Angels Sing"
+          ],
+          "articles": [
+            "Hark! The Herald Angels Sing"
+          ],
+          "points": 5
+        },
+        {
+          "label": "O Come, All Ye Faithful",
+          "views": 73269,
+          "excess": 70258,
+          "aliases": [
+            "O Come, All Ye Faithful",
+            "oh come all ye faithful",
+            "adeste fideles",
+            "Adeste Fideles",
+            "Portuguese hymn",
+            "The Portuguese Chapel Hymn"
+          ],
+          "articles": [
+            "O Come, All Ye Faithful"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Joy to the World",
+          "views": 73425,
+          "excess": 69591,
+          "aliases": [
+            "Joy to the World",
+            "Joy to the World! the Lord is come"
+          ],
+          "articles": [
+            "Joy to the World"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Deck the Halls",
+          "views": 64285,
+          "excess": 61661,
+          "aliases": [
+            "Deck the Halls",
+            "Deck the hall with boughs of holly"
+          ],
+          "articles": [
+            "Deck the Halls"
+          ],
+          "points": 1
+        },
+        {
+          "label": "We Wish You a Merry Christmas",
+          "views": 62382,
+          "excess": 60606,
+          "aliases": [
+            "We Wish You a Merry Christmas"
+          ],
+          "articles": [
+            "We Wish You a Merry Christmas"
+          ],
+          "points": 1
+        },
+        {
+          "label": "O Christmas Tree",
+          "views": 56629,
+          "excess": 53230,
+          "aliases": [
+            "O Christmas Tree",
+            "o tannenbaum",
+            "oh christmas tree",
+            "O Tannenbaum",
+            "Tannenbaum"
+          ],
+          "articles": [
+            "O Tannenbaum"
+          ],
+          "points": 1
+        },
+        {
+          "label": "The First Noel",
+          "views": 46785,
+          "excess": 45066,
+          "aliases": [
+            "The First Noel",
+            "first noel",
+            "the first nowell",
+            "For Christmas Day in the Morning",
+            "The First Nowell",
+            "The First Noël"
+          ],
+          "articles": [
+            "The First Noel"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Away in a Manger",
+          "views": 34810,
+          "excess": 33135,
+          "aliases": [
+            "Away in a Manger"
+          ],
+          "articles": [
+            "Away in a Manger"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Angels We Have Heard on High",
+          "views": 31213,
+          "excess": 29767,
+          "aliases": [
+            "Angels We Have Heard on High"
+          ],
+          "articles": [
+            "Angels We Have Heard on High"
+          ],
+          "points": 1
+        },
+        {
+          "label": "What Child Is This?",
+          "views": 28622,
+          "excess": 26625,
+          "aliases": [
+            "What Child Is This?"
+          ],
+          "articles": [
+            "What Child Is This?"
+          ],
+          "points": 1
+        },
+        {
+          "label": "O Little Town of Bethlehem",
+          "views": 24402,
+          "excess": 23501,
+          "aliases": [
+            "O Little Town of Bethlehem",
+            "oh little town of bethlehem"
+          ],
+          "articles": [
+            "O Little Town of Bethlehem"
+          ],
+          "points": 1
+        },
+        {
+          "label": "God Rest Ye Merry, Gentlemen",
+          "views": 19732,
+          "excess": 18850,
+          "aliases": [
+            "God Rest Ye Merry, Gentlemen",
+            "god rest you merry gentlemen",
+            "God Rest You Merry Gentlemen",
+            "God Rest You Merry People All",
+            "Come All You Worthy Gentlemen",
+            "Tidings of Comfort and Joy"
+          ],
+          "articles": [
+            "God Rest Ye Merry, Gentlemen"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "character",
+      "prompt": "Besides Santa, name a famous Christmas character.",
+      "short": "A Christmas character (not Santa)",
+      "answers": [
+        {
+          "label": "Krampus",
+          "views": 796676,
+          "excess": 766925,
+          "aliases": [
+            "Krampus"
+          ],
+          "articles": [
+            "Krampus"
+          ],
+          "points": 25
+        },
+        {
+          "label": "The Nutcracker",
+          "views": 462012,
+          "excess": 433388,
+          "aliases": [
+            "The Nutcracker",
+            "nutcracker",
+            "Nutcracker"
+          ],
+          "articles": [
+            "The Nutcracker"
+          ],
+          "points": 16
+        },
+        {
+          "label": "The Grinch",
+          "views": 339030,
+          "excess": 319808,
+          "aliases": [
+            "The Grinch",
+            "grinch",
+            "mr grinch",
+            "Grinch",
+            "Mr. Grinch"
+          ],
+          "articles": [
+            "Grinch"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Kevin McCallister",
+          "views": 318624,
+          "excess": 298578,
+          "aliases": [
+            "Kevin McCallister",
+            "kevin",
+            "Home Alone",
+            "Home Alone series",
+            "Home Alone film series",
+            "Home Alone movie series"
+          ],
+          "articles": [
+            "Home Alone (franchise)"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Rudolph",
+          "views": 293643,
+          "excess": 283920,
+          "aliases": [
+            "Rudolph",
+            "rudolph the red nosed reindeer",
+            "red nosed reindeer",
+            "Rudolph the Red-Nosed Reindeer"
+          ],
+          "articles": [
+            "Rudolph the Red-Nosed Reindeer"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Cindy Lou Who",
+          "views": 169596,
+          "excess": 160450,
+          "aliases": [
+            "Cindy Lou Who",
+            "cindy lou",
+            "How the Grinch Stole Christmas!"
+          ],
+          "articles": [
+            "How the Grinch Stole Christmas!"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Ebenezer Scrooge",
+          "views": 140779,
+          "excess": 127748,
+          "aliases": [
+            "Ebenezer Scrooge",
+            "scrooge",
+            "Scrooge"
+          ],
+          "articles": [
+            "Ebenezer Scrooge"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Frosty the Snowman",
+          "views": 81208,
+          "excess": 77596,
+          "aliases": [
+            "Frosty the Snowman",
+            "frosty"
+          ],
+          "articles": [
+            "Frosty the Snowman"
+          ],
+          "points": 4
+        },
+        {
+          "label": "Mrs. Claus",
+          "views": 57046,
+          "excess": 53433,
+          "aliases": [
+            "Mrs. Claus",
+            "mrs claus",
+            "mrs santa claus",
+            "missus claus",
+            "Mother Christmas",
+            "Goody Santa Claus",
+            "Mrs. Santa Claus",
+            "Mrs. Santa",
+            "Saintess Nicholas",
+            "Kreche Kindly",
+            "Madam Santa Claus",
+            "Bessie",
+            "Madame Claus",
+            "Mistress Santa Claus",
+            "Jessica",
+            "Saint Lucy",
+            "St. Lucy",
+            "Saint Lucia",
+            "St. Lucia"
+          ],
+          "articles": [
+            "Mrs. Claus"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Tiny Tim",
+          "views": 53215,
+          "excess": 49128,
+          "aliases": [
+            "Tiny Tim"
+          ],
+          "articles": [
+            "Tiny Tim (A Christmas Carol)"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Jack Frost",
+          "views": 55398,
+          "excess": 43901,
+          "aliases": [
+            "Jack Frost",
+            "Jack Froſt",
+            "Jacky Frost",
+            "Jackey Frost",
+            "John Frost",
+            "General Jack Frost",
+            "J. Frost"
+          ],
+          "articles": [
+            "Jack Frost"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Elves",
+          "views": 43213,
+          "excess": 40799,
+          "aliases": [
+            "Elves",
+            "elf",
+            "santas elves",
+            "christmas elf",
+            "Christmas elf",
+            "Santa Claus' elf",
+            "Santa's elf"
+          ],
+          "articles": [
+            "Christmas elf"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Jack Skellington",
+          "views": 31878,
+          "excess": 19452,
+          "aliases": [
+            "Jack Skellington",
+            "The Pumpkin King"
+          ],
+          "articles": [
+            "Jack Skellington"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Olaf",
+          "views": 28102,
+          "excess": 14488,
+          "aliases": [
+            "Olaf"
+          ],
+          "articles": [
+            "Olaf (Frozen)"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "cookie",
+      "prompt": "Name a cookie people bake at Christmastime.",
+      "short": "A Christmas cookie",
+      "answers": [
+        {
+          "label": "Gingerbread",
+          "views": 65056,
+          "excess": 55663,
+          "aliases": [
+            "Gingerbread",
+            "gingerbread man",
+            "gingerbread cookie",
+            "ginger snap",
+            "gingerbread",
+            "ginger bread",
+            "gingerbread human",
+            "gingerbread woman",
+            "gingerbread men",
+            "gingerbread women"
+          ],
+          "articles": [
+            "Gingerbread",
+            "Gingerbread man"
+          ],
+          "points": 28
+        },
+        {
+          "label": "Lebkuchen",
+          "views": 31090,
+          "excess": 28199,
+          "aliases": [
+            "Lebkuchen",
+            "lebkuchen",
+            "honigkuchen",
+            "pfefferkuchen"
+          ],
+          "articles": [
+            "Lebkuchen"
+          ],
+          "points": 16
+        },
+        {
+          "label": "Pfeffernüsse",
+          "views": 19687,
+          "excess": 18097,
+          "aliases": [
+            "Pfeffernüsse",
+            "pfeffernusse",
+            "pfeffernuesse",
+            "pepper nuts"
+          ],
+          "articles": [
+            "Pfeffernüsse"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Snickerdoodle",
+          "views": 24475,
+          "excess": 14387,
+          "aliases": [
+            "Snickerdoodle",
+            "snickerdoodle"
+          ],
+          "articles": [
+            "Snickerdoodle"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Pizzelle",
+          "views": 16159,
+          "excess": 12831,
+          "aliases": [
+            "Pizzelle",
+            "pizelle"
+          ],
+          "articles": [
+            "Pizzelle"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Shortbread",
+          "views": 22197,
+          "excess": 11770,
+          "aliases": [
+            "Shortbread",
+            "shortbread"
+          ],
+          "articles": [
+            "Shortbread"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Rugelach",
+          "views": 18463,
+          "excess": 8980,
+          "aliases": [
+            "Rugelach",
+            "rugelach",
+            "rugelakh"
+          ],
+          "articles": [
+            "Rugelach"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Biscotti",
+          "views": 15505,
+          "excess": 6439,
+          "aliases": [
+            "Biscotti",
+            "Cantuccio"
+          ],
+          "articles": [
+            "Biscotti"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Sugar Cookie",
+          "views": 6537,
+          "excess": 4208,
+          "aliases": [
+            "Sugar Cookie",
+            "sugar cookies",
+            "cut out cookies",
+            "sugar cookie"
+          ],
+          "articles": [
+            "Sugar cookie"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Snowball Cookie",
+          "views": 4898,
+          "excess": 4041,
+          "aliases": [
+            "Snowball Cookie",
+            "snowballs",
+            "mexican wedding cookie",
+            "russian tea cake",
+            "wedding cookies",
+            "Russian tea cake"
+          ],
+          "articles": [
+            "Russian tea cake"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Chocolate Chip",
+          "views": 15826,
+          "excess": 2706,
+          "aliases": [
+            "Chocolate Chip",
+            "chocolate chip cookies",
+            "chocolate chip cookie"
+          ],
+          "articles": [
+            "Chocolate chip cookie"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Macaron",
+          "views": 25034,
+          "excess": 2630,
+          "aliases": [
+            "Macaron",
+            "macarons",
+            "french macaron",
+            "macaron"
+          ],
+          "articles": [
+            "Macaron"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Spritz",
+          "views": 2674,
+          "excess": 2079,
+          "aliases": [
+            "Spritz",
+            "spritz cookie",
+            "spritzgeback",
+            "butter cookie",
+            "Spritzgebäck"
+          ],
+          "articles": [
+            "Spritzgebäck"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Linzer Cookie",
+          "views": 2030,
+          "excess": 1026,
+          "aliases": [
+            "Linzer Cookie",
+            "linzer",
+            "linzer torte",
+            "Linzertorte",
+            "Linz cake",
+            "Linz tart",
+            "Linzer torte"
+          ],
+          "articles": [
+            "Linzertorte"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Peanut Butter Cookie",
+          "views": 3351,
+          "excess": 942,
+          "aliases": [
+            "Peanut Butter Cookie",
+            "peanut butter blossom",
+            "peanut butter blossoms",
+            "peanut butter cookie"
+          ],
+          "articles": [
+            "Peanut butter cookie"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Thumbprint Cookie",
+          "views": 1149,
+          "excess": 625,
+          "aliases": [
+            "Thumbprint Cookie",
+            "thumbprints",
+            "jam thumbprint",
+            "Hallongrotta",
+            "Thumbprint cookies",
+            "Raspberry thumbprint cookies"
+          ],
+          "articles": [
+            "Hallongrotta"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "tree-type",
+      "prompt": "Name a type of tree people use as a Christmas tree.",
+      "short": "A Christmas tree type",
+      "answers": [
+        {
+          "label": "Fraser Fir",
+          "views": 13774,
+          "excess": 11997,
+          "aliases": [
+            "Fraser Fir",
+            "fraser",
+            "Abies fraseri",
+            "Fraser fir"
+          ],
+          "articles": [
+            "Fraser fir"
+          ],
+          "points": 17
+        },
+        {
+          "label": "Nordmann Fir",
+          "views": 11523,
+          "excess": 10382,
+          "aliases": [
+            "Nordmann Fir",
+            "nordmann",
+            "Abies nordmanniana",
+            "Caucasian fir",
+            "Nordmann fir"
+          ],
+          "articles": [
+            "Abies nordmanniana"
+          ],
+          "points": 15
+        },
+        {
+          "label": "Fir",
+          "views": 23260,
+          "excess": 10120,
+          "aliases": [
+            "Fir",
+            "fir tree",
+            "Abies",
+            "fir"
+          ],
+          "articles": [
+            "Fir"
+          ],
+          "points": 15
+        },
+        {
+          "label": "Spruce",
+          "views": 27888,
+          "excess": 8707,
+          "aliases": [
+            "Spruce",
+            "spruce tree",
+            "Picea",
+            "spruce"
+          ],
+          "articles": [
+            "Spruce"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Artificial / Fake Tree",
+          "views": 6363,
+          "excess": 5930,
+          "aliases": [
+            "Artificial / Fake Tree",
+            "Artificial",
+            "Fake Tree",
+            "fake",
+            "plastic",
+            "artificial",
+            "fake tree",
+            "plastic tree",
+            "artificial Christmas tree",
+            "fake Christmas tree"
+          ],
+          "articles": [
+            "Artificial Christmas tree"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Pine",
+          "views": 40673,
+          "excess": 4874,
+          "aliases": [
+            "Pine",
+            "pine tree",
+            "Pinus",
+            "the pine genus",
+            "pines"
+          ],
+          "articles": [
+            "Pine"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Balsam Fir",
+          "views": 9247,
+          "excess": 4754,
+          "aliases": [
+            "Balsam Fir",
+            "balsam",
+            "Abies balsamea",
+            "balsam fir",
+            "Canadian balsam fir",
+            "balm of Gilead",
+            "fir balsam"
+          ],
+          "articles": [
+            "Abies balsamea"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Norway Spruce",
+          "views": 13134,
+          "excess": 4604,
+          "aliases": [
+            "Norway Spruce",
+            "norway",
+            "picea abies",
+            "Picea abies",
+            "Norway spruce",
+            "European spruce"
+          ],
+          "articles": [
+            "Picea abies"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Noble Fir",
+          "views": 5461,
+          "excess": 4407,
+          "aliases": [
+            "Noble Fir",
+            "noble",
+            "Abies procera",
+            "Abies nobilis",
+            "noble fir",
+            "red fir",
+            "Christmas tree"
+          ],
+          "articles": [
+            "Abies procera"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Douglas Fir",
+          "views": 18949,
+          "excess": 4127,
+          "aliases": [
+            "Douglas Fir",
+            "douglas",
+            "Pseudotsuga menziesii",
+            "Pseudotsuga taxifolia",
+            "Douglas-fir",
+            "Douglas fir",
+            "Columbian pine",
+            "Oregon pine",
+            "Douglas spruce"
+          ],
+          "articles": [
+            "Douglas fir"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Blue Spruce",
+          "views": 8444,
+          "excess": 1984,
+          "aliases": [
+            "Blue Spruce",
+            "colorado blue spruce",
+            "colorado spruce",
+            "Picea pungens",
+            "blue spruce",
+            "Colorado spruce",
+            "Colorado blue spruce"
+          ],
+          "articles": [
+            "Blue spruce"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Cedar",
+          "views": 17295,
+          "excess": 1595,
+          "aliases": [
+            "Cedar",
+            "cedar tree",
+            "Cedrus"
+          ],
+          "articles": [
+            "Cedrus"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Grand Fir",
+          "views": 2434,
+          "excess": 902,
+          "aliases": [
+            "Grand Fir",
+            "Abies grandis",
+            "giant fir",
+            "lowland white fir",
+            "great silver fir",
+            "western white fir",
+            "Vancouver fir",
+            "Oregon fir",
+            "hem fir",
+            "coast grand fir",
+            "interior grand fir",
+            "grand fir"
+          ],
+          "articles": [
+            "Abies grandis"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Scots Pine",
+          "views": 9995,
+          "excess": 810,
+          "aliases": [
+            "Scots Pine",
+            "scotch pine",
+            "scots pine",
+            "Pinus sylvestris"
+          ],
+          "articles": [
+            "Pinus sylvestris"
+          ],
+          "points": 1
+        },
+        {
+          "label": "White Pine",
+          "views": 8114,
+          "excess": 406,
+          "aliases": [
+            "White Pine",
+            "eastern white pine",
+            "Pinus strobus",
+            "Weymouth pine",
+            "soft pine",
+            "northern white pine",
+            "white pine"
+          ],
+          "articles": [
+            "Pinus strobus"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "winter-holiday",
+      "prompt": "Name a holiday people celebrate during the winter.",
+      "short": "A winter holiday",
+      "answers": [
+        {
+          "label": "Boxing Day",
+          "views": 1204514,
+          "excess": 1181887,
+          "aliases": [
+            "Boxing Day",
+            "Offering Day"
+          ],
+          "articles": [
+            "Boxing Day"
+          ],
+          "points": 20
+        },
+        {
+          "label": "Christmas",
+          "views": 896180,
+          "excess": 830173,
+          "aliases": [
+            "Christmas",
+            "xmas",
+            "christmas day",
+            "X-mas",
+            "Xmas",
+            "Christmas celebration"
+          ],
+          "articles": [
+            "Christmas"
+          ],
+          "points": 15
+        },
+        {
+          "label": "Hanukkah",
+          "views": 817170,
+          "excess": 788198,
+          "aliases": [
+            "Hanukkah",
+            "chanukah",
+            "hannukah",
+            "festival of lights",
+            "Hannukah",
+            "Chanukah",
+            "Hanukah",
+            "care Chimbo",
+            "Chanuka",
+            "Chanukkah",
+            "Hanukka",
+            "Chanukka",
+            "Hannukkah",
+            "Channuka",
+            "Feast of Dedication",
+            "Festival of Lights",
+            "Jewish Feast of Dedication"
+          ],
+          "articles": [
+            "Hanukkah"
+          ],
+          "points": 14
+        },
+        {
+          "label": "New Year's Eve",
+          "views": 675748,
+          "excess": 664628,
+          "aliases": [
+            "New Year's Eve",
+            "new years eve",
+            "nye",
+            "New Years Eve"
+          ],
+          "articles": [
+            "New Year's Eve"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Kwanzaa",
+          "views": 675843,
+          "excess": 651091,
+          "aliases": [
+            "Kwanzaa"
+          ],
+          "articles": [
+            "Kwanzaa"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Winter Solstice",
+          "views": 384204,
+          "excess": 364545,
+          "aliases": [
+            "Winter Solstice",
+            "solstice",
+            "winter solstice",
+            "hiemal solstice",
+            "hibernal solstice",
+            "midwinter"
+          ],
+          "articles": [
+            "Winter solstice"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Yule",
+          "views": 234279,
+          "excess": 223821,
+          "aliases": [
+            "Yule",
+            "yuletide",
+            "Yuletide",
+            "Jul",
+            "Jol"
+          ],
+          "articles": [
+            "Yule"
+          ],
+          "points": 5
+        },
+        {
+          "label": "St. Nicholas Day",
+          "views": 212750,
+          "excess": 208627,
+          "aliases": [
+            "St. Nicholas Day",
+            "saint nicholas day",
+            "st nicholas day",
+            "Saint Nicholas Day",
+            "Saint Nicholas' Day",
+            "Feast of St. Nicholas",
+            "Eve of Saint Nicholas",
+            "St. Nicholas Eve",
+            "name day of St. Nicholas",
+            "Feast of Saint Nicholas of Bari"
+          ],
+          "articles": [
+            "Saint Nicholas Day"
+          ],
+          "points": 5
+        },
+        {
+          "label": "New Year's Day",
+          "views": 169341,
+          "excess": 155312,
+          "aliases": [
+            "New Year's Day",
+            "new years",
+            "new year",
+            "new years day",
+            "New Years Day",
+            "January 1",
+            "1 January"
+          ],
+          "articles": [
+            "New Year's Day"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Epiphany",
+          "views": 165125,
+          "excess": 149247,
+          "aliases": [
+            "Epiphany",
+            "three kings day",
+            "dia de reyes",
+            "twelfth night",
+            "Three Kings' Day"
+          ],
+          "articles": [
+            "Epiphany (holiday)"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Christmas Eve",
+          "views": 155581,
+          "excess": 149070,
+          "aliases": [
+            "Christmas Eve"
+          ],
+          "articles": [
+            "Christmas Eve"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Lunar New Year",
+          "views": 118001,
+          "excess": 83954,
+          "aliases": [
+            "Lunar New Year",
+            "chinese new year",
+            "spring festival",
+            "Chinese New Year",
+            "Spring Festival"
+          ],
+          "articles": [
+            "Chinese New Year"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Las Posadas",
+          "views": 44965,
+          "excess": 42944,
+          "aliases": [
+            "Las Posadas",
+            "posadas",
+            "The Posadas",
+            "Posadas Mexicanas"
+          ],
+          "articles": [
+            "Las Posadas"
+          ],
+          "points": 1
+        },
+        {
+          "label": "MLK Day",
+          "views": 40479,
+          "excess": 23835,
+          "aliases": [
+            "MLK Day",
+            "martin luther king day",
+            "martin luther king jr day",
+            "Martin Luther King Jr. Day",
+            "Birthday of Martin Luther King, Jr.",
+            "King Day",
+            "Reverend Dr. Martin Luther King Jr. Day",
+            "Martin Luther King, Jr. Day"
+          ],
+          "articles": [
+            "Martin Luther King Jr. Day"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Valentine's Day",
+          "views": 58411,
+          "excess": 18561,
+          "aliases": [
+            "Valentine's Day",
+            "valentines day",
+            "valentines",
+            "Saint Valentine's Day",
+            "Valentines Day",
+            "Valentines' Day",
+            "St. Valentine's Day",
+            "V-Day",
+            "St Valentine's Day",
+            "Saint Valentine Day"
+          ],
+          "articles": [
+            "Valentine's Day"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Groundhog Day",
+          "views": 26127,
+          "excess": 7433,
+          "aliases": [
+            "Groundhog Day",
+            "Groundhog's Day",
+            "Daks Day"
+          ],
+          "articles": [
+            "Groundhog Day"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "tv-special",
+      "prompt": "Name a classic animated Christmas TV special.",
+      "short": "A Christmas TV special",
+      "answers": [
+        {
+          "label": "Rudolph the Red-Nosed Reindeer",
+          "views": 216645,
+          "excess": 209305,
+          "aliases": [
+            "Rudolph the Red-Nosed Reindeer",
+            "rudolph",
+            "rudolph the red nosed reindeer"
+          ],
+          "articles": [
+            "Rudolph the Red-Nosed Reindeer (TV special)"
+          ],
+          "points": 18
+        },
+        {
+          "label": "A Charlie Brown Christmas",
+          "views": 166372,
+          "excess": 160562,
+          "aliases": [
+            "A Charlie Brown Christmas",
+            "charlie brown christmas",
+            "charlie brown",
+            "Charlie Brown Christmas"
+          ],
+          "articles": [
+            "A Charlie Brown Christmas"
+          ],
+          "points": 14
+        },
+        {
+          "label": "How the Grinch Stole Christmas!",
+          "views": 131986,
+          "excess": 126466,
+          "aliases": [
+            "How the Grinch Stole Christmas!",
+            "the grinch",
+            "grinch",
+            "Dr. Seuss' How the Grinch Stole Christmas!",
+            "How the Grinch Stole Christmas"
+          ],
+          "articles": [
+            "How the Grinch Stole Christmas! (TV special)"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Frosty the Snowman",
+          "views": 120777,
+          "excess": 117159,
+          "aliases": [
+            "Frosty the Snowman",
+            "frosty"
+          ],
+          "articles": [
+            "Frosty the Snowman (TV special)"
+          ],
+          "points": 11
+        },
+        {
+          "label": "The Snowman",
+          "views": 120083,
+          "excess": 114121,
+          "aliases": [
+            "The Snowman",
+            "snowman",
+            "Snowman"
+          ],
+          "articles": [
+            "The Snowman"
+          ],
+          "points": 11
+        },
+        {
+          "label": "The Year Without a Santa Claus",
+          "views": 107991,
+          "excess": 104216,
+          "aliases": [
+            "The Year Without a Santa Claus",
+            "heat miser",
+            "snow miser",
+            "year without a santa",
+            "Year Without a Santa Claus"
+          ],
+          "articles": [
+            "The Year Without a Santa Claus"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Santa Claus Is Comin' to Town",
+          "views": 104031,
+          "excess": 101850,
+          "aliases": [
+            "Santa Claus Is Comin' to Town",
+            "santa claus is coming to town"
+          ],
+          "articles": [
+            "Santa Claus Is Comin' to Town (TV special)"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Mickey's Christmas Carol",
+          "views": 54417,
+          "excess": 49226,
+          "aliases": [
+            "Mickey's Christmas Carol"
+          ],
+          "articles": [
+            "Mickey's Christmas Carol"
+          ],
+          "points": 6
+        },
+        {
+          "label": "The Little Drummer Boy",
+          "views": 32774,
+          "excess": 31520,
+          "aliases": [
+            "The Little Drummer Boy",
+            "little drummer boy"
+          ],
+          "articles": [
+            "The Little Drummer Boy (TV special)"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Prep & Landing",
+          "views": 20951,
+          "excess": 19907,
+          "aliases": [
+            "Prep & Landing",
+            "prep and landing"
+          ],
+          "articles": [
+            "Prep & Landing"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Shrek the Halls",
+          "views": 17520,
+          "excess": 14139,
+          "aliases": [
+            "Shrek the Halls"
+          ],
+          "articles": [
+            "Shrek the Halls"
+          ],
+          "points": 1
+        },
+        {
+          "label": "A Garfield Christmas",
+          "views": 8404,
+          "excess": 7773,
+          "aliases": [
+            "A Garfield Christmas",
+            "garfield christmas",
+            "garfield",
+            "Garfield Christmas"
+          ],
+          "articles": [
+            "A Garfield Christmas"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Olaf's Frozen Adventure",
+          "views": 11320,
+          "excess": 7509,
+          "aliases": [
+            "Olaf's Frozen Adventure",
+            "olafs frozen adventure",
+            "olaf"
+          ],
+          "articles": [
+            "Olaf's Frozen Adventure"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Merry Madagascar",
+          "views": 5703,
+          "excess": 3918,
+          "aliases": [
+            "Merry Madagascar"
+          ],
+          "articles": [
+            "Merry Madagascar"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "prompt": "Name a dessert you'd see at a Christmas party.",
+      "short": "A Christmas dessert",
+      "answers": [
+        {
+          "label": "Panettone",
+          "views": 142780,
+          "excess": 133710,
+          "aliases": [
+            "Panettone",
+            "panettone"
+          ],
+          "articles": [
+            "Panettone"
+          ],
+          "points": 22
+        },
+        {
+          "label": "Mince Pie",
+          "views": 76517,
+          "excess": 70399,
+          "aliases": [
+            "Mince Pie",
+            "mincemeat pie",
+            "mincemeat",
+            "mince pie"
+          ],
+          "articles": [
+            "Mince pie"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Christmas Pudding",
+          "views": 66982,
+          "excess": 60670,
+          "aliases": [
+            "Christmas Pudding",
+            "figgy pudding",
+            "plum pudding",
+            "Christmas pudding"
+          ],
+          "articles": [
+            "Christmas pudding"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Stollen",
+          "views": 65411,
+          "excess": 60612,
+          "aliases": [
+            "Stollen",
+            "christstollen",
+            "stollen",
+            "stol",
+            "kerststol",
+            "paasstol"
+          ],
+          "articles": [
+            "Stollen"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Yule Log",
+          "views": 62534,
+          "excess": 59930,
+          "aliases": [
+            "Yule Log",
+            "buche de noel",
+            "yule log cake",
+            "chocolate log",
+            "Yule log",
+            "Bûche de Noël"
+          ],
+          "articles": [
+            "Yule log (cake)"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Candy Cane",
+          "views": 56339,
+          "excess": 52832,
+          "aliases": [
+            "Candy Cane",
+            "candy canes",
+            "candy cane"
+          ],
+          "articles": [
+            "Candy cane"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Fruitcake",
+          "views": 31479,
+          "excess": 26327,
+          "aliases": [
+            "Fruitcake",
+            "fruit cake",
+            "fruitcake"
+          ],
+          "articles": [
+            "Fruitcake"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Trifle",
+          "views": 35749,
+          "excess": 23580,
+          "aliases": [
+            "Trifle",
+            "trifle"
+          ],
+          "articles": [
+            "Trifle"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Gingerbread House",
+          "views": 21566,
+          "excess": 19883,
+          "aliases": [
+            "Gingerbread House",
+            "gingerbread house"
+          ],
+          "articles": [
+            "Gingerbread house"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Rum Balls",
+          "views": 9025,
+          "excess": 7172,
+          "aliases": [
+            "Rum Balls",
+            "rum ball",
+            "chocolate balls"
+          ],
+          "articles": [
+            "Rum ball"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Fudge",
+          "views": 17020,
+          "excess": 5499,
+          "aliases": [
+            "Fudge",
+            "fudge"
+          ],
+          "articles": [
+            "Fudge"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Pecan Pie",
+          "views": 9576,
+          "excess": 4999,
+          "aliases": [
+            "Pecan Pie",
+            "pecan pie"
+          ],
+          "articles": [
+            "Pecan pie"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Pumpkin Pie",
+          "views": 8351,
+          "excess": 4606,
+          "aliases": [
+            "Pumpkin Pie",
+            "pumpkin pie"
+          ],
+          "articles": [
+            "Pumpkin pie"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Cheesecake",
+          "views": 27291,
+          "excess": 3705,
+          "aliases": [
+            "Cheesecake",
+            "cheesecake",
+            "cheese cake"
+          ],
+          "articles": [
+            "Cheesecake"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Peppermint Bark",
+          "views": 3169,
+          "excess": 2898,
+          "aliases": [
+            "Peppermint Bark",
+            "peppermint bark"
+          ],
+          "articles": [
+            "Peppermint bark"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Apple Pie",
+          "views": 13414,
+          "excess": 863,
+          "aliases": [
+            "Apple Pie",
+            "apple pie"
+          ],
+          "articles": [
+            "Apple pie"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "hot-drink",
+      "prompt": "Name a warm drink you'd sip on a snowy day.",
+      "short": "A warm drink",
+      "answers": [
+        {
+          "label": "Eggnog",
+          "views": 346323,
+          "excess": 328953,
+          "aliases": [
+            "Eggnog",
+            "egg nog",
+            "eggnog",
+            "egg toddy",
+            "brandy egg nog"
+          ],
+          "articles": [
+            "Eggnog"
+          ],
+          "points": 59
+        },
+        {
+          "label": "Wassail",
+          "views": 62525,
+          "excess": 58752,
+          "aliases": [
+            "Wassail"
+          ],
+          "articles": [
+            "Wassail"
+          ],
+          "points": 15
+        },
+        {
+          "label": "Hot Chocolate",
+          "views": 24428,
+          "excess": 14237,
+          "aliases": [
+            "Hot Chocolate",
+            "hot cocoa",
+            "cocoa",
+            "hot coco",
+            "hot chocolate",
+            "chocolate tea",
+            "drinking chocolate"
+          ],
+          "articles": [
+            "Hot chocolate"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Chai",
+          "views": 47567,
+          "excess": 13398,
+          "aliases": [
+            "Chai",
+            "chai tea",
+            "chai latte",
+            "masala chai",
+            "karak",
+            "chai",
+            "spiced tea"
+          ],
+          "articles": [
+            "Masala chai"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Apple Cider",
+          "views": 15721,
+          "excess": 6361,
+          "aliases": [
+            "Apple Cider",
+            "hot cider",
+            "cider",
+            "warm cider",
+            "apple cider",
+            "sweet cider",
+            "soft cider",
+            "cloudy apple juice"
+          ],
+          "articles": [
+            "Apple cider"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Cappuccino",
+          "views": 42899,
+          "excess": 5607,
+          "aliases": [
+            "Cappuccino",
+            "cappuccino",
+            "Kapuziner"
+          ],
+          "articles": [
+            "Cappuccino"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Peppermint Mocha",
+          "views": 27278,
+          "excess": 4757,
+          "aliases": [
+            "Peppermint Mocha",
+            "mocha",
+            "peppermint mocha",
+            "cafe mocha",
+            "cafè mocha",
+            "mochachino",
+            "café mocha"
+          ],
+          "articles": [
+            "Caffè mocha"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Matcha",
+          "views": 81909,
+          "excess": 4095,
+          "aliases": [
+            "Matcha",
+            "matcha latte",
+            "matcha",
+            "maccha",
+            "matcha powder",
+            "green tea powder",
+            "matcha tea",
+            "Matcha Zen"
+          ],
+          "articles": [
+            "Matcha"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Soup / Broth",
+          "views": 31621,
+          "excess": 4077,
+          "aliases": [
+            "Soup / Broth",
+            "Soup",
+            "Broth",
+            "soup",
+            "broth",
+            "chicken soup",
+            "clear soup",
+            "bouillon",
+            "stock",
+            "bone broth"
+          ],
+          "articles": [
+            "Soup",
+            "Broth"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Coffee",
+          "views": 76400,
+          "excess": 3820,
+          "aliases": [
+            "Coffee",
+            "coffee"
+          ],
+          "articles": [
+            "Coffee"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Golden Milk",
+          "views": 62048,
+          "excess": 3692,
+          "aliases": [
+            "Golden Milk",
+            "turmeric latte",
+            "Curcuma longa",
+            "Indian saffron",
+            "turmeric",
+            "turmeric plant",
+            "medicinal plant"
+          ],
+          "articles": [
+            "Turmeric"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Latte",
+          "views": 29243,
+          "excess": 2765,
+          "aliases": [
+            "Latte",
+            "cafe latte",
+            "latte",
+            "caffè latte",
+            "caffellate",
+            "caffè e latte",
+            "caffe latte",
+            "caffe e latte",
+            "Lattes"
+          ],
+          "articles": [
+            "Latte"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Tea",
+          "views": 53353,
+          "excess": 2668,
+          "aliases": [
+            "Tea",
+            "hot tea",
+            "tea"
+          ],
+          "articles": [
+            "Tea"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Pumpkin Spice Latte",
+          "views": 1524,
+          "excess": 1479,
+          "aliases": [
+            "Pumpkin Spice Latte",
+            "psl",
+            "pumpkin spice",
+            "pumpkin spice lattes"
+          ],
+          "articles": [
+            "Pumpkin spice latte"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "winter-sport",
+      "prompt": "Name a sport people play in the winter.",
+      "short": "A winter sport",
+      "answers": [
+        {
+          "label": "Curling",
+          "views": 35735,
+          "excess": 12015,
+          "aliases": [
+            "Curling",
+            "curling"
+          ],
+          "articles": [
+            "Curling"
+          ],
+          "points": 16
+        },
+        {
+          "label": "Cross-Country Skiing",
+          "views": 13872,
+          "excess": 8816,
+          "aliases": [
+            "Cross-Country Skiing",
+            "cross country",
+            "cross-country skiing",
+            "cross-country snow skiing"
+          ],
+          "articles": [
+            "Cross-country skiing"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Biathlon",
+          "views": 20490,
+          "excess": 7904,
+          "aliases": [
+            "Biathlon",
+            "biathlon",
+            "ski shooting",
+            "ski-shooting",
+            "skiing shooting",
+            "skiing-shooting"
+          ],
+          "articles": [
+            "Biathlon"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Ice Hockey",
+          "views": 57484,
+          "excess": 7774,
+          "aliases": [
+            "Ice Hockey",
+            "hockey",
+            "ice hockey"
+          ],
+          "articles": [
+            "Ice hockey"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Skiing",
+          "views": 23437,
+          "excess": 6817,
+          "aliases": [
+            "Skiing",
+            "ski",
+            "downhill skiing",
+            "skiing",
+            "winter skiing",
+            "snow skiing"
+          ],
+          "articles": [
+            "Skiing"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Sledding",
+          "views": 10499,
+          "excess": 6561,
+          "aliases": [
+            "Sledding",
+            "sledding",
+            "sledging",
+            "tobogganing",
+            "toboggan",
+            "sled",
+            "sledge",
+            "sleigh",
+            "Sleds"
+          ],
+          "articles": [
+            "Sled"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Snowboarding",
+          "views": 15164,
+          "excess": 6320,
+          "aliases": [
+            "Snowboarding",
+            "snowboard",
+            "snowboarding"
+          ],
+          "articles": [
+            "Snowboarding"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Snowmobiling",
+          "views": 12010,
+          "excess": 5453,
+          "aliases": [
+            "Snowmobiling",
+            "snowmobile",
+            "snowmachine",
+            "motor sled",
+            "Snowmobiles"
+          ],
+          "articles": [
+            "Snowmobile"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Basketball",
+          "views": 108557,
+          "excess": 5428,
+          "aliases": [
+            "Basketball",
+            "basketball",
+            "hoops",
+            "b-ball",
+            "basket ball",
+            "basket"
+          ],
+          "articles": [
+            "Basketball"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Ski Jumping",
+          "views": 10469,
+          "excess": 5351,
+          "aliases": [
+            "Ski Jumping",
+            "ski jumping"
+          ],
+          "articles": [
+            "Ski jumping"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Ice Skating",
+          "views": 9506,
+          "excess": 4169,
+          "aliases": [
+            "Ice Skating",
+            "skating",
+            "ice skating"
+          ],
+          "articles": [
+            "Ice skating"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Bobsled",
+          "views": 11990,
+          "excess": 3790,
+          "aliases": [
+            "Bobsled",
+            "bobsleigh",
+            "bobsledding",
+            "bobsled",
+            "bobsleighing"
+          ],
+          "articles": [
+            "Bobsleigh"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Figure Skating",
+          "views": 17841,
+          "excess": 3628,
+          "aliases": [
+            "Figure Skating",
+            "figure skating"
+          ],
+          "articles": [
+            "Figure skating"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Luge",
+          "views": 11347,
+          "excess": 3621,
+          "aliases": [
+            "Luge",
+            "luge",
+            "artificial luge olympic luge",
+            "luge on natural track",
+            "luge on artificial track",
+            "natural track luge"
+          ],
+          "articles": [
+            "Luge"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Speed Skating",
+          "views": 6944,
+          "excess": 2416,
+          "aliases": [
+            "Speed Skating",
+            "speed skating",
+            "speedskating",
+            "speed-skating"
+          ],
+          "articles": [
+            "Speed skating"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "holiday-plant",
+      "prompt": "Name a plant or flower you see around the holidays.",
+      "short": "A holiday plant",
+      "answers": [
+        {
+          "label": "Christmas Tree",
+          "views": 215938,
+          "excess": 202845,
+          "aliases": [
+            "Christmas Tree",
+            "tree",
+            "evergreen",
+            "Christmas tree",
+            "holiday tree",
+            "Christmas-tree"
+          ],
+          "articles": [
+            "Christmas tree"
+          ],
+          "points": 30
+        },
+        {
+          "label": "Poinsettia",
+          "views": 189159,
+          "excess": 175564,
+          "aliases": [
+            "Poinsettia",
+            "pointsettia",
+            "poinsetta",
+            "Euphorbia pulcherrima",
+            "Christmas star",
+            "poinsettia"
+          ],
+          "articles": [
+            "Poinsettia"
+          ],
+          "points": 27
+        },
+        {
+          "label": "Mistletoe",
+          "views": 134635,
+          "excess": 119349,
+          "aliases": [
+            "Mistletoe",
+            "mistletoe"
+          ],
+          "articles": [
+            "Mistletoe"
+          ],
+          "points": 20
+        },
+        {
+          "label": "Amaryllis",
+          "views": 39560,
+          "excess": 21536,
+          "aliases": [
+            "Amaryllis",
+            "hippeastrum",
+            "Hippeastrum",
+            "amaryllis",
+            "true amaryllis"
+          ],
+          "articles": [
+            "Hippeastrum",
+            "Amaryllis"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Christmas Cactus",
+          "views": 25464,
+          "excess": 17962,
+          "aliases": [
+            "Christmas Cactus",
+            "holiday cactus",
+            "schlumbergera",
+            "Schlumbergera",
+            "Christmas cactus"
+          ],
+          "articles": [
+            "Schlumbergera"
+          ],
+          "points": 4
+        },
+        {
+          "label": "Cranberry",
+          "views": 47652,
+          "excess": 14073,
+          "aliases": [
+            "Cranberry",
+            "cranberries",
+            "cranberry",
+            "fox-musked blueberry",
+            "Vaccinium subg. Oxycoccus"
+          ],
+          "articles": [
+            "Cranberry"
+          ],
+          "points": 4
+        },
+        {
+          "label": "Holly",
+          "views": 10522,
+          "excess": 6207,
+          "aliases": [
+            "Holly",
+            "holly",
+            "english holly",
+            "ilex",
+            "Ilex aquifolium",
+            "Ilex perado subsp. iberica",
+            "common holly",
+            "English holly",
+            "European holly",
+            "Christmas holly"
+          ],
+          "articles": [
+            "Ilex aquifolium"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Rosemary",
+          "views": 47143,
+          "excess": 4600,
+          "aliases": [
+            "Rosemary",
+            "Salvia rosmarinus",
+            "Rosmarinus officinalis",
+            "rosemary"
+          ],
+          "articles": [
+            "Rosemary"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Christmas Rose",
+          "views": 6700,
+          "excess": 3829,
+          "aliases": [
+            "Christmas Rose",
+            "hellebore",
+            "Helleborus niger",
+            "black hellebore",
+            "Christmas rose",
+            "Christmas-rose"
+          ],
+          "articles": [
+            "Helleborus niger"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Paperwhite",
+          "views": 3998,
+          "excess": 3147,
+          "aliases": [
+            "Paperwhite",
+            "paperwhites",
+            "narcissus",
+            "Narcissus papyraceus"
+          ],
+          "articles": [
+            "Narcissus papyraceus"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Ivy",
+          "views": 8980,
+          "excess": 811,
+          "aliases": [
+            "Ivy",
+            "english ivy",
+            "Hedera",
+            "ivy",
+            "ivies"
+          ],
+          "articles": [
+            "Hedera"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Pine Cone",
+          "views": 8,
+          "excess": 2,
+          "aliases": [
+            "Pine Cone",
+            "pinecone",
+            "pine cones",
+            "cone",
+            "Conifer cones",
+            "Cone",
+            "Strobilus",
+            "conifer cone",
+            "Plant Cone",
+            "strobilus",
+            "strobile"
+          ],
+          "articles": [
+            "Cone (botany)"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "decoration",
+      "prompt": "Name a decoration people put up for Christmas.",
+      "short": "A Christmas decoration",
+      "answers": [
+        {
+          "label": "Elf on the Shelf",
+          "views": 152608,
+          "excess": 149641,
+          "aliases": [
+            "Elf on the Shelf",
+            "elf on a shelf",
+            "The Elf on the Shelf",
+            "The Elf on the Shelf: A Christmas Tradition"
+          ],
+          "articles": [
+            "The Elf on the Shelf"
+          ],
+          "points": 26
+        },
+        {
+          "label": "Advent Calendar",
+          "views": 111548,
+          "excess": 107656,
+          "aliases": [
+            "Advent Calendar",
+            "24-day christmas calendar",
+            "advent calendar",
+            "christmas calendar",
+            "24-day advent calendar",
+            "daily christmas calendar",
+            "daily advent calendar"
+          ],
+          "articles": [
+            "Advent calendar"
+          ],
+          "points": 20
+        },
+        {
+          "label": "Candy Canes",
+          "views": 56339,
+          "excess": 52832,
+          "aliases": [
+            "Candy Canes",
+            "candy cane"
+          ],
+          "articles": [
+            "Candy cane"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Nativity Scene",
+          "views": 47003,
+          "excess": 43610,
+          "aliases": [
+            "Nativity Scene",
+            "nativity",
+            "manger scene",
+            "creche",
+            "nativity scene",
+            "crib",
+            "crèche",
+            "Bethlehem",
+            "manger scenes",
+            "nativity scenes"
+          ],
+          "articles": [
+            "Nativity scene"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Nutcracker",
+          "views": 37636,
+          "excess": 35529,
+          "aliases": [
+            "Nutcracker",
+            "nutcrackers",
+            "nutcracker doll",
+            "nutcracker",
+            "Christmas nutcracker"
+          ],
+          "articles": [
+            "Nutcracker doll"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Tinsel",
+          "views": 25428,
+          "excess": 23346,
+          "aliases": [
+            "Tinsel",
+            "tinsel"
+          ],
+          "articles": [
+            "Tinsel"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Stockings",
+          "views": 24174,
+          "excess": 23274,
+          "aliases": [
+            "Stockings",
+            "stocking",
+            "Christmas stocking"
+          ],
+          "articles": [
+            "Christmas stocking"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Christmas Lights",
+          "views": 20420,
+          "excess": 18425,
+          "aliases": [
+            "Christmas Lights",
+            "lights",
+            "string lights",
+            "fairy lights",
+            "Christmas lights",
+            "festive lights",
+            "Christmas light"
+          ],
+          "articles": [
+            "Christmas lights"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Wreath",
+          "views": 20366,
+          "excess": 15444,
+          "aliases": [
+            "Wreath",
+            "wreaths",
+            "wreath",
+            "floral wreath",
+            "garland",
+            "flower crowns"
+          ],
+          "articles": [
+            "Wreath"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Ornaments",
+          "views": 13594,
+          "excess": 12460,
+          "aliases": [
+            "Ornaments",
+            "ornament",
+            "baubles",
+            "bauble",
+            "Christmas ornament",
+            "Christmas tree ornament"
+          ],
+          "articles": [
+            "Christmas ornament"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Snow Globe",
+          "views": 12474,
+          "excess": 8396,
+          "aliases": [
+            "Snow Globe",
+            "snow globe",
+            "waterglobe",
+            "snowdome"
+          ],
+          "articles": [
+            "Snow globe"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Tree Topper / Star",
+          "views": 5283,
+          "excess": 5029,
+          "aliases": [
+            "Tree Topper / Star",
+            "Tree Topper",
+            "Star",
+            "star",
+            "tree topper",
+            "angel",
+            "christmas star",
+            "tree-topper",
+            "Christmas tree finial",
+            "Christmas tree-topper",
+            "tree finial"
+          ],
+          "articles": [
+            "Tree-topper"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Garland",
+          "views": 8951,
+          "excess": 4366,
+          "aliases": [
+            "Garland",
+            "garlands",
+            "garland"
+          ],
+          "articles": [
+            "Garland"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Christmas Village",
+          "views": 3146,
+          "excess": 2824,
+          "aliases": [
+            "Christmas Village",
+            "Christmas village",
+            "Dickens village",
+            "Dickens' village",
+            "Dickens' London Towne"
+          ],
+          "articles": [
+            "Christmas village"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "xmas-book",
+      "prompt": "Name a famous Christmas book or story.",
+      "short": "A Christmas story",
+      "answers": [
+        {
+          "label": "A Christmas Carol",
+          "views": 473621,
+          "excess": 441752,
+          "aliases": [
+            "A Christmas Carol",
+            "christmas carol",
+            "scrooge",
+            "A Christmas Carol in Prose",
+            "A Christmas Carol in Prose, Being a Ghost-Story of Christmas"
+          ],
+          "articles": [
+            "A Christmas Carol"
+          ],
+          "points": 30
+        },
+        {
+          "label": "How the Grinch Stole Christmas!",
+          "views": 169596,
+          "excess": 160450,
+          "aliases": [
+            "How the Grinch Stole Christmas!",
+            "the grinch",
+            "grinch"
+          ],
+          "articles": [
+            "How the Grinch Stole Christmas!"
+          ],
+          "points": 13
+        },
+        {
+          "label": "The Elf on the Shelf",
+          "views": 152608,
+          "excess": 149641,
+          "aliases": [
+            "The Elf on the Shelf",
+            "elf on the shelf",
+            "Elf on the Shelf",
+            "The Elf on the Shelf: A Christmas Tradition"
+          ],
+          "articles": [
+            "The Elf on the Shelf"
+          ],
+          "points": 13
+        },
+        {
+          "label": "'Twas the Night Before Christmas",
+          "views": 129784,
+          "excess": 124987,
+          "aliases": [
+            "'Twas the Night Before Christmas",
+            "night before christmas",
+            "twas the night before christmas",
+            "a visit from st nicholas",
+            "A Visit from St. Nicholas",
+            "The Night Before Christmas",
+            "Twas the Night Before Christmas",
+            "Account of a Visit from St. Nicholas"
+          ],
+          "articles": [
+            "A Visit from St. Nicholas"
+          ],
+          "points": 11
+        },
+        {
+          "label": "The Nutcracker",
+          "views": 79636,
+          "excess": 73373,
+          "aliases": [
+            "The Nutcracker",
+            "nutcracker",
+            "the nutcracker and the mouse king",
+            "The Nutcracker and the Mouse King",
+            "Nutcracker and Mouse-King",
+            "The History of Krakatuk",
+            "The Fairytale of the Hard Nut"
+          ],
+          "articles": [
+            "The Nutcracker and the Mouse King"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Yes, Virginia",
+          "views": 74567,
+          "excess": 71230,
+          "aliases": [
+            "Yes, Virginia",
+            "yes virginia there is a santa claus",
+            "yes virginia",
+            "Yes, Virginia, there is a Santa Claus",
+            "Is There a Santa Claus?",
+            "Is There a Santa Claus",
+            "Is There Santa Claus"
+          ],
+          "articles": [
+            "Yes, Virginia, there is a Santa Claus"
+          ],
+          "points": 7
+        },
+        {
+          "label": "The Polar Express",
+          "views": 58396,
+          "excess": 55380,
+          "aliases": [
+            "The Polar Express",
+            "polar express"
+          ],
+          "articles": [
+            "The Polar Express"
+          ],
+          "points": 6
+        },
+        {
+          "label": "The Best Christmas Pageant Ever",
+          "views": 49749,
+          "excess": 47477,
+          "aliases": [
+            "The Best Christmas Pageant Ever",
+            "best christmas pageant ever"
+          ],
+          "articles": [
+            "The Best Christmas Pageant Ever"
+          ],
+          "points": 5
+        },
+        {
+          "label": "The Gift of the Magi",
+          "views": 65468,
+          "excess": 43063,
+          "aliases": [
+            "The Gift of the Magi",
+            "gift of the magi"
+          ],
+          "articles": [
+            "The Gift of the Magi"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Olive, the Other Reindeer",
+          "views": 34555,
+          "excess": 31418,
+          "aliases": [
+            "Olive, the Other Reindeer",
+            "olive the other reindeer",
+            "Olive the other Reindeer"
+          ],
+          "articles": [
+            "Olive, the Other Reindeer"
+          ],
+          "points": 2
+        },
+        {
+          "label": "The Little Match Girl",
+          "views": 37376,
+          "excess": 20964,
+          "aliases": [
+            "The Little Match Girl",
+            "little match girl"
+          ],
+          "articles": [
+            "The Little Match Girl"
+          ],
+          "points": 1
+        },
+        {
+          "label": "The Snow Queen",
+          "views": 47770,
+          "excess": 18808,
+          "aliases": [
+            "The Snow Queen",
+            "snow queen"
+          ],
+          "articles": [
+            "The Snow Queen"
+          ],
+          "points": 1
+        },
+        {
+          "label": "The Christmas Pig",
+          "views": 5829,
+          "excess": 4465,
+          "aliases": [
+            "The Christmas Pig"
+          ],
+          "articles": [
+            "The Christmas Pig"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "animated-movie",
+      "prompt": "Name an animated Christmas movie.",
+      "short": "An animated Christmas movie",
+      "answers": [
+        {
+          "label": "The Polar Express",
+          "views": 534729,
+          "excess": 505621,
+          "aliases": [
+            "The Polar Express",
+            "polar express",
+            "Polar Express"
+          ],
+          "articles": [
+            "The Polar Express (film)"
+          ],
+          "points": 22
+        },
+        {
+          "label": "The Grinch (2018)",
+          "views": 440784,
+          "excess": 419096,
+          "aliases": [
+            "The Grinch (2018)",
+            "the grinch",
+            "grinch"
+          ],
+          "articles": [
+            "The Grinch (film)"
+          ],
+          "points": 19
+        },
+        {
+          "label": "Klaus",
+          "views": 241429,
+          "excess": 227262,
+          "aliases": [
+            "Klaus"
+          ],
+          "articles": [
+            "Klaus (film)"
+          ],
+          "points": 11
+        },
+        {
+          "label": "That Christmas",
+          "views": 184423,
+          "excess": 175943,
+          "aliases": [
+            "That Christmas"
+          ],
+          "articles": [
+            "That Christmas"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Nightmare Before Christmas",
+          "views": 224459,
+          "excess": 171556,
+          "aliases": [
+            "Nightmare Before Christmas",
+            "nightmare before christmas"
+          ],
+          "articles": [
+            "The Nightmare Before Christmas"
+          ],
+          "points": 9
+        },
+        {
+          "label": "A Christmas Carol (2009)",
+          "views": 180643,
+          "excess": 166194,
+          "aliases": [
+            "A Christmas Carol (2009)",
+            "a christmas carol",
+            "christmas carol",
+            "A Christmas Carol",
+            "Christmas Carol",
+            "Disney's A Christmas Carol"
+          ],
+          "articles": [
+            "A Christmas Carol (2009 film)"
+          ],
+          "points": 9
+        },
+        {
+          "label": "The Snowman",
+          "views": 120083,
+          "excess": 114121,
+          "aliases": [
+            "The Snowman",
+            "snowman",
+            "Snowman"
+          ],
+          "articles": [
+            "The Snowman"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Arthur Christmas",
+          "views": 105178,
+          "excess": 97118,
+          "aliases": [
+            "Arthur Christmas"
+          ],
+          "articles": [
+            "Arthur Christmas"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Frozen",
+          "views": 150568,
+          "excess": 50418,
+          "aliases": [
+            "Frozen",
+            "frozen"
+          ],
+          "articles": [
+            "Frozen (2013 film)"
+          ],
+          "points": 3
+        },
+        {
+          "label": "The Star",
+          "views": 49832,
+          "excess": 41041,
+          "aliases": [
+            "The Star",
+            "Star",
+            "The Star: The Story of the First Christmas"
+          ],
+          "articles": [
+            "The Star (2017 film)"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Mickey's Once Upon a Christmas",
+          "views": 39167,
+          "excess": 35076,
+          "aliases": [
+            "Mickey's Once Upon a Christmas",
+            "mickey christmas"
+          ],
+          "articles": [
+            "Mickey's Once Upon a Christmas"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Noelle",
+          "views": 2571,
+          "excess": 1625,
+          "aliases": [
+            "Noelle",
+            "Noelle / Noëlle",
+            "Noëlle"
+          ],
+          "articles": [
+            "Noelle"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Santa's Apprentice",
+          "views": 2002,
+          "excess": 1500,
+          "aliases": [
+            "Santa's Apprentice"
+          ],
+          "articles": [
+            "Santa's Apprentice"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "winter-animal",
+      "prompt": "Name an animal you'd find somewhere snowy.",
+      "short": "A snowy animal",
+      "answers": [
+        {
+          "label": "Reindeer",
+          "views": 139902,
+          "excess": 99828,
+          "aliases": [
+            "Reindeer",
+            "caribou",
+            "rudolph",
+            "Rangifer tarandus",
+            "reindeer"
+          ],
+          "articles": [
+            "Reindeer"
+          ],
+          "points": 40
+        },
+        {
+          "label": "Penguin",
+          "views": 97225,
+          "excess": 23664,
+          "aliases": [
+            "Penguin",
+            "penguins",
+            "emperor penguin",
+            "penguin",
+            "the penguin family",
+            "Spheniscidae",
+            "spheniscid"
+          ],
+          "articles": [
+            "Penguin"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Ermine",
+          "views": 67524,
+          "excess": 13224,
+          "aliases": [
+            "Ermine",
+            "stoat",
+            "weasel",
+            "Mustela erminea",
+            "short-tailed stoat",
+            "ermelin",
+            "short-tailed weasel",
+            "ermilin",
+            "ermine"
+          ],
+          "articles": [
+            "Stoat"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Moose",
+          "views": 86402,
+          "excess": 12967,
+          "aliases": [
+            "Moose",
+            "elk",
+            "moose",
+            "Eurasian elk",
+            "moofe deer",
+            "Alces alces"
+          ],
+          "articles": [
+            "Moose"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Polar Bear",
+          "views": 102803,
+          "excess": 11349,
+          "aliases": [
+            "Polar Bear",
+            "polar bears",
+            "Ursus maritimus",
+            "ice bear",
+            "white bear",
+            "polar bear"
+          ],
+          "articles": [
+            "Polar bear"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Snowy Owl",
+          "views": 27337,
+          "excess": 10010,
+          "aliases": [
+            "Snowy Owl",
+            "owl",
+            "white owl",
+            "Bubo scandiacus",
+            "Snowy owl",
+            "Nyctea scandiaca",
+            "polar owl",
+            "Arctic owl"
+          ],
+          "articles": [
+            "Snowy owl"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Snow Leopard",
+          "views": 65491,
+          "excess": 9303,
+          "aliases": [
+            "Snow Leopard",
+            "snow leopard",
+            "ounce",
+            "Uncia uncia",
+            "Panthera uncia",
+            "P. uncia"
+          ],
+          "articles": [
+            "Snow leopard"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Muskox",
+          "views": 33949,
+          "excess": 7575,
+          "aliases": [
+            "Muskox",
+            "musk ox",
+            "muskox",
+            "musk-ox",
+            "Ovibos moschatus",
+            "musk oxen",
+            "muskoxen",
+            "musk-oxen"
+          ],
+          "articles": [
+            "Muskox"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Seal",
+          "views": 49084,
+          "excess": 6333,
+          "aliases": [
+            "Seal",
+            "seals",
+            "harp seal",
+            "sea lion",
+            "Pinnipedia",
+            "pinniped",
+            "pinnipeds",
+            "seals and walruses"
+          ],
+          "articles": [
+            "Pinniped"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Arctic Fox",
+          "views": 36307,
+          "excess": 4380,
+          "aliases": [
+            "Arctic Fox",
+            "snow fox",
+            "white fox",
+            "Arctic fox",
+            "blue fox",
+            "polar fox",
+            "Alopex",
+            "Alopex lagopus",
+            "Canis lagopus",
+            "Vulpes lagopus"
+          ],
+          "articles": [
+            "Arctic fox"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Yak",
+          "views": 36229,
+          "excess": 3900,
+          "aliases": [
+            "Yak",
+            "Bos grunniens",
+            "domestic yak",
+            "yak"
+          ],
+          "articles": [
+            "Yak"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Walrus",
+          "views": 45484,
+          "excess": 3746,
+          "aliases": [
+            "Walrus",
+            "walrus",
+            "Odobenus rosmarus"
+          ],
+          "articles": [
+            "Walrus"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Husky",
+          "views": 43218,
+          "excess": 2807,
+          "aliases": [
+            "Husky",
+            "siberian husky",
+            "sled dog",
+            "huskies",
+            "Siberian Husky",
+            "Huskie"
+          ],
+          "articles": [
+            "Siberian Husky"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Arctic Wolf",
+          "views": 12843,
+          "excess": 1772,
+          "aliases": [
+            "Arctic Wolf",
+            "wolf",
+            "white wolf",
+            "Arctic wolf",
+            "snow wolf",
+            "polar wolf",
+            "Canis lupus arctos"
+          ],
+          "articles": [
+            "Arctic wolf"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Snowshoe Hare",
+          "views": 9247,
+          "excess": 1724,
+          "aliases": [
+            "Snowshoe Hare",
+            "snow rabbit",
+            "arctic hare",
+            "rabbit",
+            "hare",
+            "snowshoe hare",
+            "Lepus americanus",
+            "snowshoe rabbit",
+            "varying hare"
+          ],
+          "articles": [
+            "Snowshoe hare"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "snow-activity",
+      "prompt": "Name something people build or do when it snows.",
+      "short": "Something to do in the snow",
+      "answers": [
+        {
+          "label": "Build a Snowman",
+          "views": 24371,
+          "excess": 20018,
+          "aliases": [
+            "Build a Snowman",
+            "snowman",
+            "snowmen",
+            "build a snowman"
+          ],
+          "articles": [
+            "Snowman"
+          ],
+          "points": 27
+        },
+        {
+          "label": "Build an Igloo",
+          "views": 26816,
+          "excess": 8325,
+          "aliases": [
+            "Build an Igloo",
+            "igloo",
+            "igloos"
+          ],
+          "articles": [
+            "Igloo"
+          ],
+          "points": 14
+        },
+        {
+          "label": "Skiing",
+          "views": 23437,
+          "excess": 6817,
+          "aliases": [
+            "Skiing",
+            "ski",
+            "skiing",
+            "winter skiing",
+            "snow skiing"
+          ],
+          "articles": [
+            "Skiing"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Sledding",
+          "views": 10499,
+          "excess": 6561,
+          "aliases": [
+            "Sledding",
+            "sled",
+            "sledding",
+            "toboggan",
+            "sledging",
+            "sledge",
+            "sleigh",
+            "Sleds"
+          ],
+          "articles": [
+            "Sled"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Snowboarding",
+          "views": 15164,
+          "excess": 6320,
+          "aliases": [
+            "Snowboarding",
+            "snowboard",
+            "snowboarding"
+          ],
+          "articles": [
+            "Snowboarding"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Ice Skating",
+          "views": 9506,
+          "excess": 4169,
+          "aliases": [
+            "Ice Skating",
+            "skating",
+            "ice skating"
+          ],
+          "articles": [
+            "Ice skating"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Snowshoeing",
+          "views": 5479,
+          "excess": 2978,
+          "aliases": [
+            "Snowshoeing",
+            "snowshoe",
+            "snowshoes",
+            "snow shoe",
+            "snow-shoe",
+            "show shoes",
+            "snow racket",
+            "snow rackets"
+          ],
+          "articles": [
+            "Snowshoe"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Snowball Fight",
+          "views": 2383,
+          "excess": 1609,
+          "aliases": [
+            "Snowball Fight",
+            "snowball",
+            "snowballs",
+            "throw snowballs",
+            "snowball fight"
+          ],
+          "articles": [
+            "Snowball fight"
+          ],
+          "points": 4
+        },
+        {
+          "label": "Snow Angels",
+          "views": 2402,
+          "excess": 1589,
+          "aliases": [
+            "Snow Angels",
+            "snow angel"
+          ],
+          "articles": [
+            "Snow angel"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Snow Fort",
+          "views": 1361,
+          "excess": 787,
+          "aliases": [
+            "Snow Fort",
+            "fort",
+            "snow fort"
+          ],
+          "articles": [
+            "Snow fort"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Make Snow Ice Cream",
+          "views": 1136,
+          "excess": 501,
+          "aliases": [
+            "Make Snow Ice Cream",
+            "snow ice cream",
+            "snow cream",
+            "Snow cream"
+          ],
+          "articles": [
+            "Snow cream"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Shovel Snow",
+          "views": 680,
+          "excess": 443,
+          "aliases": [
+            "Shovel Snow",
+            "shoveling",
+            "shovel",
+            "shoveling snow",
+            "snow shovel",
+            "Snow Shovels"
+          ],
+          "articles": [
+            "Snow shovel"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "xmas-dinner",
+      "prompt": "Name a food you'd find on the table at Christmas dinner.",
+      "short": "A Christmas dinner food",
+      "answers": [
+        {
+          "label": "Tamales",
+          "views": 66991,
+          "excess": 32535,
+          "aliases": [
+            "Tamales",
+            "tamale",
+            "tamal",
+            "tamales"
+          ],
+          "articles": [
+            "Tamale"
+          ],
+          "points": 18
+        },
+        {
+          "label": "Yorkshire Pudding",
+          "views": 59377,
+          "excess": 29618,
+          "aliases": [
+            "Yorkshire Pudding",
+            "Yorkshire pudding"
+          ],
+          "articles": [
+            "Yorkshire pudding"
+          ],
+          "points": 17
+        },
+        {
+          "label": "Brussels Sprouts",
+          "views": 45583,
+          "excess": 19662,
+          "aliases": [
+            "Brussels Sprouts",
+            "brussel sprouts",
+            "sprouts",
+            "Brussels sprouts",
+            "Brassica oleracea gemmifera",
+            "Brussel Sprouts"
+          ],
+          "articles": [
+            "Brussels sprout"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Prime Rib",
+          "views": 24225,
+          "excess": 18749,
+          "aliases": [
+            "Prime Rib",
+            "rib roast",
+            "roast beef",
+            "prime rib",
+            "standing rib roast"
+          ],
+          "articles": [
+            "Standing rib roast"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Green Bean Casserole",
+          "views": 16469,
+          "excess": 13692,
+          "aliases": [
+            "Green Bean Casserole",
+            "green beans",
+            "green bean casserole"
+          ],
+          "articles": [
+            "Green bean casserole"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Pigs in Blankets",
+          "views": 15423,
+          "excess": 13370,
+          "aliases": [
+            "Pigs in Blankets",
+            "pigs in a blanket",
+            "pigs in blankets",
+            "wrapped sausages",
+            "pigs in skins",
+            "kilted sausages",
+            "kilted soldiers"
+          ],
+          "articles": [
+            "Pigs in blankets"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Ham",
+          "views": 32777,
+          "excess": 10711,
+          "aliases": [
+            "Ham",
+            "christmas ham",
+            "glazed ham",
+            "honey ham",
+            "ham"
+          ],
+          "articles": [
+            "Ham"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Stuffing",
+          "views": 12796,
+          "excess": 9327,
+          "aliases": [
+            "Stuffing",
+            "dressing",
+            "stuffing",
+            "filling",
+            "farce",
+            "farciment"
+          ],
+          "articles": [
+            "Stuffing"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Cranberry Sauce",
+          "views": 8478,
+          "excess": 6927,
+          "aliases": [
+            "Cranberry Sauce",
+            "cranberries",
+            "cranberry",
+            "cranberry sauce",
+            "cranberry jam"
+          ],
+          "articles": [
+            "Cranberry sauce"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Mac and Cheese",
+          "views": 27365,
+          "excess": 4728,
+          "aliases": [
+            "Mac and Cheese",
+            "macaroni and cheese",
+            "mac n cheese",
+            "mac and cheese",
+            "macaroni pie",
+            "macaroni cheese",
+            "mac & cheese"
+          ],
+          "articles": [
+            "Macaroni and cheese"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Gravy",
+          "views": 20431,
+          "excess": 4366,
+          "aliases": [
+            "Gravy",
+            "gravy",
+            "Universal brown sauce",
+            "gravies"
+          ],
+          "articles": [
+            "Gravy"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Sweet Potatoes",
+          "views": 51106,
+          "excess": 4341,
+          "aliases": [
+            "Sweet Potatoes",
+            "sweet potato",
+            "yams",
+            "candied yams"
+          ],
+          "articles": [
+            "Sweet potato"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Mashed Potatoes",
+          "views": 12756,
+          "excess": 2484,
+          "aliases": [
+            "Mashed Potatoes",
+            "mashed potato",
+            "potatoes",
+            "mashed potatoes",
+            "mash"
+          ],
+          "articles": [
+            "Mashed potato"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Turkey",
+          "views": 4637,
+          "excess": 1642,
+          "aliases": [
+            "Turkey",
+            "roast turkey",
+            "turkey",
+            "turkey meat",
+            "turkey as food",
+            "turkey flesh"
+          ],
+          "articles": [
+            "Turkey as food"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Dinner Rolls",
+          "views": 6477,
+          "excess": 368,
+          "aliases": [
+            "Dinner Rolls",
+            "rolls",
+            "bread",
+            "dinner roll",
+            "bread roll"
+          ],
+          "articles": [
+            "Bread roll"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "xmas-singer",
+      "prompt": "Name a singer famous for a Christmas song.",
+      "short": "A Christmas singer",
+      "answers": [
+        {
+          "label": "Wham! / George Michael",
+          "views": 1267727,
+          "excess": 976031,
+          "aliases": [
+            "Wham! / George Michael",
+            "Wham!",
+            "George Michael",
+            "wham",
+            "george michael",
+            "Wham! U.K.",
+            "Wham! UK",
+            "Wham UK",
+            "Wham"
+          ],
+          "articles": [
+            "Wham!",
+            "George Michael"
+          ],
+          "points": 24
+        },
+        {
+          "label": "Bing Crosby",
+          "views": 685459,
+          "excess": 599703,
+          "aliases": [
+            "Bing Crosby",
+            "bing",
+            "Harry Lillis Crosby",
+            "Harry Lillis Crosby Jr.",
+            "Harry Crosby Jr.",
+            "Harry Crosby"
+          ],
+          "articles": [
+            "Bing Crosby"
+          ],
+          "points": 16
+        },
+        {
+          "label": "Brenda Lee",
+          "views": 478899,
+          "excess": 451499,
+          "aliases": [
+            "Brenda Lee",
+            "Brenda Mae Tarpley",
+            "Brenda Lee Shacklett",
+            "Brenda Tarpley",
+            "Brenda Mae Shacklett",
+            "Brenda Shacklett"
+          ],
+          "articles": [
+            "Brenda Lee"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Mariah Carey",
+          "views": 681860,
+          "excess": 446344,
+          "aliases": [
+            "Mariah Carey",
+            "mariah"
+          ],
+          "articles": [
+            "Mariah Carey"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Pentatonix",
+          "views": 308925,
+          "excess": 268197,
+          "aliases": [
+            "Pentatonix"
+          ],
+          "articles": [
+            "Pentatonix"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Michael Bublé",
+          "views": 296353,
+          "excess": 221089,
+          "aliases": [
+            "Michael Bublé",
+            "michael buble",
+            "buble",
+            "Michael Buble",
+            "Mickey Bubbles"
+          ],
+          "articles": [
+            "Michael Bublé"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Frank Sinatra",
+          "views": 435730,
+          "excess": 158783,
+          "aliases": [
+            "Frank Sinatra",
+            "sinatra",
+            "Francis Albert Sinatra",
+            "Old Blue Eyes",
+            "Sinatra",
+            "Ol' Blue Eyes"
+          ],
+          "articles": [
+            "Frank Sinatra"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Dean Martin",
+          "views": 286881,
+          "excess": 148813,
+          "aliases": [
+            "Dean Martin",
+            "Dino Paul Crocetti",
+            "Dino Martini"
+          ],
+          "articles": [
+            "Dean Martin"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Andy Williams",
+          "views": 174618,
+          "excess": 144010,
+          "aliases": [
+            "Andy Williams",
+            "Howard Andrew Williams"
+          ],
+          "articles": [
+            "Andy Williams"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Elvis Presley",
+          "views": 641720,
+          "excess": 143338,
+          "aliases": [
+            "Elvis Presley",
+            "elvis",
+            "Elvis A. Presley",
+            "Elvis",
+            "King of Rock'n'Roll",
+            "The King of Rock'n'Roll",
+            "Elvis Aaron Presley"
+          ],
+          "articles": [
+            "Elvis Presley"
+          ],
+          "points": 1
+        },
+        {
+          "label": "José Feliciano",
+          "views": 142295,
+          "excess": 124078,
+          "aliases": [
+            "José Feliciano",
+            "jose feliciano",
+            "Jose Feliciano",
+            "José Montserrate Feliciano García",
+            "Jose Montserrate Feliciano Garcia"
+          ],
+          "articles": [
+            "José Feliciano"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Burl Ives",
+          "views": 148049,
+          "excess": 122835,
+          "aliases": [
+            "Burl Ives",
+            "Burl Icle Ivanhoe Ives"
+          ],
+          "articles": [
+            "Burl Ives"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Darlene Love",
+          "views": 125134,
+          "excess": 110627,
+          "aliases": [
+            "Darlene Love",
+            "Darlene Wright"
+          ],
+          "articles": [
+            "Darlene Love"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Nat King Cole",
+          "views": 150049,
+          "excess": 90720,
+          "aliases": [
+            "Nat King Cole",
+            "Nathaniel Adams Coles"
+          ],
+          "articles": [
+            "Nat King Cole"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Kelly Clarkson",
+          "views": 209434,
+          "excess": 51777,
+          "aliases": [
+            "Kelly Clarkson",
+            "Kelly Brianne",
+            "Kelly Brianne Clarkson"
+          ],
+          "articles": [
+            "Kelly Clarkson"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Bobby Helms",
+          "views": 35563,
+          "excess": 33180,
+          "aliases": [
+            "Bobby Helms",
+            "Bobby Lee Helms",
+            "Robert Helms"
+          ],
+          "articles": [
+            "Bobby Helms"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "winter-clothing",
+      "prompt": "Name something you wear to stay warm in the winter.",
+      "short": "Winter clothing",
+      "answers": [
+        {
+          "label": "Uggs",
+          "views": 23574,
+          "excess": 17125,
+          "aliases": [
+            "Uggs",
+            "ugg",
+            "ugg boots",
+            "UGG Australia"
+          ],
+          "articles": [
+            "UGG (brand)"
+          ],
+          "points": 31
+        },
+        {
+          "label": "Sweater",
+          "views": 12575,
+          "excess": 5685,
+          "aliases": [
+            "Sweater",
+            "jumper",
+            "pullover",
+            "ugly sweater",
+            "christmas sweater",
+            "sweater"
+          ],
+          "articles": [
+            "Sweater"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Parka",
+          "views": 12861,
+          "excess": 4824,
+          "aliases": [
+            "Parka",
+            "parka"
+          ],
+          "articles": [
+            "Parka"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Long Underwear",
+          "views": 7073,
+          "excess": 4031,
+          "aliases": [
+            "Long Underwear",
+            "thermals",
+            "long johns",
+            "thermal underwear",
+            "long underwear"
+          ],
+          "articles": [
+            "Long underwear"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Beanie / Hat",
+          "views": 10486,
+          "excess": 3701,
+          "aliases": [
+            "Beanie / Hat",
+            "Beanie",
+            "Hat",
+            "beanie",
+            "hat",
+            "toque",
+            "winter hat",
+            "knit cap",
+            "binnie"
+          ],
+          "articles": [
+            "Knit cap"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Coat / Jacket",
+          "views": 11738,
+          "excess": 2500,
+          "aliases": [
+            "Coat / Jacket",
+            "Coat",
+            "Jacket",
+            "coat",
+            "jacket",
+            "winter coat",
+            "puffer",
+            "Badrisa",
+            "bidirasa",
+            "Qamsala",
+            "Chakeyya",
+            "Saco"
+          ],
+          "articles": [
+            "Coat",
+            "Jacket"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Hoodie",
+          "views": 11316,
+          "excess": 2162,
+          "aliases": [
+            "Hoodie",
+            "sweatshirt",
+            "hoodie",
+            "hooded sweatshirt",
+            "hoody"
+          ],
+          "articles": [
+            "Hoodie"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Mittens",
+          "views": 3249,
+          "excess": 1614,
+          "aliases": [
+            "Mittens",
+            "mitten",
+            "mitts",
+            "mittens"
+          ],
+          "articles": [
+            "Mitten"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Wool Socks",
+          "views": 8376,
+          "excess": 1602,
+          "aliases": [
+            "Wool Socks",
+            "socks",
+            "wool socks",
+            "sock"
+          ],
+          "articles": [
+            "Sock"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Earmuffs",
+          "views": 3440,
+          "excess": 1453,
+          "aliases": [
+            "Earmuffs",
+            "ear muffs",
+            "earmuffs",
+            "ear defenders",
+            "ear flaps",
+            "ear covers"
+          ],
+          "articles": [
+            "Earmuffs"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Gloves",
+          "views": 7095,
+          "excess": 1418,
+          "aliases": [
+            "Gloves",
+            "glove",
+            "gloves"
+          ],
+          "articles": [
+            "Glove"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Scarf",
+          "views": 5490,
+          "excess": 1276,
+          "aliases": [
+            "Scarf",
+            "scarves",
+            "scarf"
+          ],
+          "articles": [
+            "Scarf"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Boots",
+          "views": 5778,
+          "excess": 921,
+          "aliases": [
+            "Boots",
+            "boot",
+            "snow boots",
+            "winter boots",
+            "boots"
+          ],
+          "articles": [
+            "Boot"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "classic-toy",
+      "prompt": "Name a toy that's been a classic Christmas gift.",
+      "short": "A classic toy",
+      "answers": [
+        {
+          "label": "Barbie",
+          "views": 119235,
+          "excess": 33244,
+          "aliases": [
+            "Barbie",
+            "barbie doll",
+            "Barbie product line",
+            "Barbie franchise",
+            "Barbie Millicent Roberts"
+          ],
+          "articles": [
+            "Barbie"
+          ],
+          "points": 21
+        },
+        {
+          "label": "LEGO",
+          "views": 93831,
+          "excess": 28854,
+          "aliases": [
+            "LEGO",
+            "legos",
+            "Lego"
+          ],
+          "articles": [
+            "Lego"
+          ],
+          "points": 19
+        },
+        {
+          "label": "Monopoly",
+          "views": 95242,
+          "excess": 22227,
+          "aliases": [
+            "Monopoly",
+            "monopoly",
+            "Monopoly game"
+          ],
+          "articles": [
+            "Monopoly (game)"
+          ],
+          "points": 15
+        },
+        {
+          "label": "Furby",
+          "views": 33997,
+          "excess": 14442,
+          "aliases": [
+            "Furby",
+            "Furbies",
+            "Furbys"
+          ],
+          "articles": [
+            "Furby"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Etch A Sketch",
+          "views": 17725,
+          "excess": 10023,
+          "aliases": [
+            "Etch A Sketch",
+            "etch a sketch",
+            "EtchASketch",
+            "Magic Screen"
+          ],
+          "articles": [
+            "Etch A Sketch"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Cabbage Patch Kids",
+          "views": 23268,
+          "excess": 8923,
+          "aliases": [
+            "Cabbage Patch Kids",
+            "cabbage patch",
+            "Little People"
+          ],
+          "articles": [
+            "Cabbage Patch Kids"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Hot Wheels",
+          "views": 30623,
+          "excess": 7740,
+          "aliases": [
+            "Hot Wheels"
+          ],
+          "articles": [
+            "Hot Wheels"
+          ],
+          "points": 6
+        },
+        {
+          "label": "Rubik's Cube",
+          "views": 58824,
+          "excess": 6106,
+          "aliases": [
+            "Rubik's Cube",
+            "rubiks cube",
+            "Magic cube",
+            "3x3x3 cube",
+            "3×3×3 cube",
+            "3x3 cube"
+          ],
+          "articles": [
+            "Rubik's Cube"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Tamagotchi",
+          "views": 41973,
+          "excess": 4957,
+          "aliases": [
+            "Tamagotchi",
+            "tama gotchi",
+            "tama gatchi",
+            "tamagatchi",
+            "tama gacchi",
+            "tamagacchi"
+          ],
+          "articles": [
+            "Tamagotchi"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Teddy Bear",
+          "views": 26670,
+          "excess": 4545,
+          "aliases": [
+            "Teddy Bear",
+            "stuffed animal",
+            "teddy",
+            "teddy bear"
+          ],
+          "articles": [
+            "Teddy bear"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Slinky",
+          "views": 11381,
+          "excess": 3398,
+          "aliases": [
+            "Slinky"
+          ],
+          "articles": [
+            "Slinky"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Play-Doh",
+          "views": 15421,
+          "excess": 3345,
+          "aliases": [
+            "Play-Doh",
+            "play doh",
+            "playdough",
+            "play-dough"
+          ],
+          "articles": [
+            "Play-Doh"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Yo-yo",
+          "views": 17076,
+          "excess": 1603,
+          "aliases": [
+            "Yo-yo",
+            "yoyo",
+            "yo-yo",
+            "Yoyo"
+          ],
+          "articles": [
+            "Yo-yo"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Nerf",
+          "views": 9122,
+          "excess": 1517,
+          "aliases": [
+            "Nerf",
+            "nerf gun"
+          ],
+          "articles": [
+            "Nerf"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Toy Train",
+          "views": 1557,
+          "excess": 454,
+          "aliases": [
+            "Toy Train",
+            "train set",
+            "train",
+            "toy train"
+          ],
+          "articles": [
+            "Toy train"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Rocking Horse",
+          "views": 927,
+          "excess": 238,
+          "aliases": [
+            "Rocking Horse",
+            "rocking horse"
+          ],
+          "articles": [
+            "Rocking horse"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "fruit-nut",
+      "prompt": "Name a fruit or nut people snack on around Christmas.",
+      "short": "A holiday fruit or nut",
+      "answers": [
+        {
+          "label": "Pomegranate",
+          "views": 94369,
+          "excess": 30807,
+          "aliases": [
+            "Pomegranate",
+            "pomegranate",
+            "pomegranate tree",
+            "anar"
+          ],
+          "articles": [
+            "Pomegranate"
+          ],
+          "points": 24
+        },
+        {
+          "label": "Chestnuts",
+          "views": 47821,
+          "excess": 22321,
+          "aliases": [
+            "Chestnuts",
+            "chestnut",
+            "roasted chestnuts",
+            "chestnut genus",
+            "chestnuts"
+          ],
+          "articles": [
+            "Chestnut"
+          ],
+          "points": 19
+        },
+        {
+          "label": "Cranberries",
+          "views": 47652,
+          "excess": 14073,
+          "aliases": [
+            "Cranberries",
+            "cranberry",
+            "fox-musked blueberry",
+            "Vaccinium subg. Oxycoccus",
+            "cranberries"
+          ],
+          "articles": [
+            "Cranberry"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Clementines",
+          "views": 25060,
+          "excess": 11871,
+          "aliases": [
+            "Clementines",
+            "clementine",
+            "cuties",
+            "mandarin",
+            "tangerine",
+            "Citrinos × clementina",
+            "Moroccan clementine",
+            "Citrus x clementina",
+            "Citrus ×clementina"
+          ],
+          "articles": [
+            "Clementine"
+          ],
+          "points": 11
+        },
+        {
+          "label": "Oranges",
+          "views": 62633,
+          "excess": 7955,
+          "aliases": [
+            "Oranges",
+            "orange",
+            "orange fruit",
+            "citrus orange"
+          ],
+          "articles": [
+            "Orange (fruit)"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Apples",
+          "views": 75799,
+          "excess": 6601,
+          "aliases": [
+            "Apples",
+            "apple",
+            "apple fruit"
+          ],
+          "articles": [
+            "Apple"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Pecans",
+          "views": 29238,
+          "excess": 4664,
+          "aliases": [
+            "Pecans",
+            "pecan",
+            "Carya illinoinensis",
+            "Carya illinoensis",
+            "sweet pecan",
+            "Carya illinoiensis"
+          ],
+          "articles": [
+            "Pecan"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Pistachios",
+          "views": 47840,
+          "excess": 3973,
+          "aliases": [
+            "Pistachios",
+            "pistachio",
+            "Pistacia vera",
+            "the pistachio tree",
+            "pistachio tree"
+          ],
+          "articles": [
+            "Pistachio"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Cashews",
+          "views": 68053,
+          "excess": 3898,
+          "aliases": [
+            "Cashews",
+            "cashew",
+            "Cashew",
+            "cashew tree",
+            "Anacardium occidentale"
+          ],
+          "articles": [
+            "Cashew"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Walnuts",
+          "views": 36565,
+          "excess": 3640,
+          "aliases": [
+            "Walnuts",
+            "walnut",
+            "Juglans regia"
+          ],
+          "articles": [
+            "Walnut"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Dates",
+          "views": 49676,
+          "excess": 2484,
+          "aliases": [
+            "Dates",
+            "date",
+            "date palm",
+            "Phoenix dactylifera"
+          ],
+          "articles": [
+            "Date palm"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Figs",
+          "views": 48907,
+          "excess": 2445,
+          "aliases": [
+            "Figs",
+            "fig",
+            "Ficus carica",
+            "common fig",
+            "fig plant"
+          ],
+          "articles": [
+            "Fig"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Almonds",
+          "views": 43602,
+          "excess": 2180,
+          "aliases": [
+            "Almonds",
+            "almond",
+            "Prunus amygdalus",
+            "almond tree",
+            "Prunus dulcis"
+          ],
+          "articles": [
+            "Almond"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "live-show",
+      "prompt": "Name a live show people go see at Christmastime.",
+      "short": "A holiday live show",
+      "answers": [
+        {
+          "label": "A Christmas Carol (play)",
+          "views": 571777,
+          "excess": 536764,
+          "aliases": [
+            "A Christmas Carol (play)",
+            "a christmas carol",
+            "christmas carol",
+            "A Christmas Carol",
+            "A Christmas Carol in Prose",
+            "A Christmas Carol in Prose, Being a Ghost-Story of Christmas",
+            "Adaptations of A Christmas Carol"
+          ],
+          "articles": [
+            "A Christmas Carol",
+            "Adaptations of A Christmas Carol"
+          ],
+          "points": 31
+        },
+        {
+          "label": "The Nutcracker",
+          "views": 462012,
+          "excess": 433388,
+          "aliases": [
+            "The Nutcracker",
+            "nutcracker",
+            "nutcracker ballet",
+            "Nutcracker"
+          ],
+          "articles": [
+            "The Nutcracker"
+          ],
+          "points": 26
+        },
+        {
+          "label": "Trans-Siberian Orchestra",
+          "views": 199894,
+          "excess": 190702,
+          "aliases": [
+            "Trans-Siberian Orchestra",
+            "tso",
+            "trans siberian orchestra",
+            "Trans Siberian Orchestra"
+          ],
+          "articles": [
+            "Trans-Siberian Orchestra"
+          ],
+          "points": 13
+        },
+        {
+          "label": "Holiday Concert",
+          "views": 89562,
+          "excess": 85227,
+          "aliases": [
+            "Holiday Concert",
+            "concert",
+            "choir concert",
+            "christmas concert",
+            "Christmas music"
+          ],
+          "articles": [
+            "Christmas music"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Handel's Messiah",
+          "views": 94486,
+          "excess": 80688,
+          "aliases": [
+            "Handel's Messiah",
+            "messiah",
+            "hallelujah chorus",
+            "Messiah",
+            "HWV 56",
+            "Messiah, HWV 56",
+            "The Messiah"
+          ],
+          "articles": [
+            "Messiah (Handel)"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Radio City / Rockettes",
+          "views": 45384,
+          "excess": 37659,
+          "aliases": [
+            "Radio City / Rockettes",
+            "Radio City",
+            "Rockettes",
+            "rockettes",
+            "radio city",
+            "radio city christmas spectacular",
+            "Christmas Spectacular Starring the Radio City Rockettes",
+            "The Rockettes",
+            "Radio City Rockettes"
+          ],
+          "articles": [
+            "Christmas Spectacular Starring the Radio City Rockettes",
+            "The Rockettes"
+          ],
+          "points": 4
+        },
+        {
+          "label": "Pantomime",
+          "views": 43703,
+          "excess": 28513,
+          "aliases": [
+            "Pantomime",
+            "panto",
+            "pantomime"
+          ],
+          "articles": [
+            "Pantomime"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Grinch Musical",
+          "views": 13000,
+          "excess": 11860,
+          "aliases": [
+            "Grinch Musical",
+            "grinch",
+            "the grinch musical",
+            "Dr. Seuss' How the Grinch Stole Christmas! The Musical"
+          ],
+          "articles": [
+            "Dr. Seuss' How the Grinch Stole Christmas! The Musical"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Elf the Musical",
+          "views": 12137,
+          "excess": 10285,
+          "aliases": [
+            "Elf the Musical",
+            "elf musical",
+            "elf",
+            "Elf",
+            "ELF The Musical"
+          ],
+          "articles": [
+            "Elf (musical)"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Disney on Ice",
+          "views": 5631,
+          "excess": 2633,
+          "aliases": [
+            "Disney on Ice"
+          ],
+          "articles": [
+            "Disney on Ice"
+          ],
+          "points": 1
+        },
+        {
+          "label": "White Christmas Musical",
+          "views": 1128,
+          "excess": 996,
+          "aliases": [
+            "White Christmas Musical",
+            "white christmas",
+            "Irving Berlin's White Christmas",
+            "Irving Berlin's \"White Christmas\""
+          ],
+          "articles": [
+            "Irving Berlin's White Christmas"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "new-years",
+      "prompt": "Name something you associate with New Year's Eve.",
+      "short": "A New Year's Eve thing",
+      "answers": [
+        {
+          "label": "Auld Lang Syne",
+          "views": 264307,
+          "excess": 227942,
+          "aliases": [
+            "Auld Lang Syne",
+            "Air Sgàth nan Iomadh Linn"
+          ],
+          "articles": [
+            "Auld Lang Syne"
+          ],
+          "points": 55
+        },
+        {
+          "label": "Ball Drop",
+          "views": 53062,
+          "excess": 47267,
+          "aliases": [
+            "Ball Drop",
+            "times square",
+            "ball drop",
+            "the ball",
+            "Times Square Ball"
+          ],
+          "articles": [
+            "Times Square Ball"
+          ],
+          "points": 16
+        },
+        {
+          "label": "Fireworks",
+          "views": 32236,
+          "excess": 17075,
+          "aliases": [
+            "Fireworks",
+            "firework",
+            "fireworks",
+            "Fireworks & Firecrackers"
+          ],
+          "articles": [
+            "Fireworks"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Resolutions",
+          "views": 18154,
+          "excess": 16907,
+          "aliases": [
+            "Resolutions",
+            "resolution",
+            "new years resolution",
+            "New Year's resolution"
+          ],
+          "articles": [
+            "New Year's resolution"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Sparkling Cider",
+          "views": 15721,
+          "excess": 6361,
+          "aliases": [
+            "Sparkling Cider",
+            "cider",
+            "champagne",
+            "apple cider",
+            "sweet cider",
+            "soft cider",
+            "cloudy apple juice"
+          ],
+          "articles": [
+            "Apple cider"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Sparklers",
+          "views": 6087,
+          "excess": 3678,
+          "aliases": [
+            "Sparklers",
+            "sparkler"
+          ],
+          "articles": [
+            "Sparkler"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Kiss at Midnight",
+          "views": 40758,
+          "excess": 2038,
+          "aliases": [
+            "Kiss at Midnight",
+            "kiss",
+            "midnight kiss",
+            "kissing",
+            "kissed",
+            "to kiss",
+            "kisses",
+            "buss",
+            "peck",
+            "pecked",
+            "smooch",
+            "smacker",
+            "lock lips",
+            "lip-lock"
+          ],
+          "articles": [
+            "Kiss"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Noisemakers",
+          "views": 1938,
+          "excess": 1299,
+          "aliases": [
+            "Noisemakers",
+            "noise maker",
+            "horns",
+            "party horn",
+            "noisemaker"
+          ],
+          "articles": [
+            "Noisemaker"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Countdown",
+          "views": 4061,
+          "excess": 679,
+          "aliases": [
+            "Countdown",
+            "counting down",
+            "midnight",
+            "countdown",
+            "T minus"
+          ],
+          "articles": [
+            "Countdown"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Confetti",
+          "views": 5034,
+          "excess": 611,
+          "aliases": [
+            "Confetti",
+            "confetti"
+          ],
+          "articles": [
+            "Confetti"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Party",
+          "views": 9386,
+          "excess": 469,
+          "aliases": [
+            "Party",
+            "parties",
+            "party",
+            "celebration",
+            "feast",
+            "festival",
+            "gala",
+            "festivity",
+            "public party"
+          ],
+          "articles": [
+            "Party"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Party Hats",
+          "views": 1151,
+          "excess": 107,
+          "aliases": [
+            "Party Hats",
+            "party hat",
+            "hats",
+            "paper party hat"
+          ],
+          "articles": [
+            "Party hat"
+          ],
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "hanukkah",
+      "prompt": "Name something associated with Hanukkah.",
+      "short": "A Hanukkah tradition",
+      "answers": [
+        {
+          "label": "Dreidel",
+          "views": 84710,
+          "excess": 74833,
+          "aliases": [
+            "Dreidel",
+            "dreidels",
+            "dreidel",
+            "dreydl",
+            "draydel"
+          ],
+          "articles": [
+            "Dreidel"
+          ],
+          "points": 23
+        },
+        {
+          "label": "Menorah",
+          "views": 68365,
+          "excess": 63302,
+          "aliases": [
+            "Menorah",
+            "menorah",
+            "hanukkiah",
+            "candles",
+            "Hanukkah menorah",
+            "hanukiah",
+            "chanukiah"
+          ],
+          "articles": [
+            "Hanukkah menorah"
+          ],
+          "points": 20
+        },
+        {
+          "label": "Latkes",
+          "views": 51685,
+          "excess": 42083,
+          "aliases": [
+            "Latkes",
+            "latke",
+            "potato pancakes",
+            "latkes",
+            "levivot",
+            "latka",
+            "potato pancake"
+          ],
+          "articles": [
+            "Latke"
+          ],
+          "points": 14
+        },
+        {
+          "label": "Sufganiyot / Jelly Donuts",
+          "views": 35485,
+          "excess": 32967,
+          "aliases": [
+            "Sufganiyot / Jelly Donuts",
+            "Sufganiyot",
+            "Jelly Donuts",
+            "sufganiyah",
+            "jelly donut",
+            "donuts",
+            "jelly doughnut",
+            "sufganiyot"
+          ],
+          "articles": [
+            "Sufganiyah"
+          ],
+          "points": 12
+        },
+        {
+          "label": "Star of David",
+          "views": 71548,
+          "excess": 22944,
+          "aliases": [
+            "Star of David",
+            "David star",
+            "Shield of David",
+            "Magen David",
+            "Jewish star"
+          ],
+          "articles": [
+            "Star of David"
+          ],
+          "points": 9
+        },
+        {
+          "label": "Gelt",
+          "views": 21544,
+          "excess": 19969,
+          "aliases": [
+            "Gelt",
+            "chocolate coins",
+            "gelt",
+            "Hanukkah gelt"
+          ],
+          "articles": [
+            "Hanukkah gelt"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Challah",
+          "views": 31307,
+          "excess": 9728,
+          "aliases": [
+            "Challah",
+            "challah",
+            "hallah",
+            "berches",
+            "challot",
+            "challos"
+          ],
+          "articles": [
+            "Challah"
+          ],
+          "points": 4
+        },
+        {
+          "label": "Brisket",
+          "views": 44175,
+          "excess": 5177,
+          "aliases": [
+            "Brisket",
+            "brisket"
+          ],
+          "articles": [
+            "Brisket"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Applesauce",
+          "views": 5897,
+          "excess": 1089,
+          "aliases": [
+            "Applesauce",
+            "apple sauce",
+            "applesauce"
+          ],
+          "articles": [
+            "Apple sauce"
+          ],
+          "points": 3
+        }
+      ]
+    },
+    {
+      "id": "gift",
+      "prompt": "Name a popular gift people give at the holidays.",
+      "short": "A popular holiday gift",
+      "answers": [
+        {
+          "label": "Video Game Console",
+          "views": 373210,
+          "excess": 83663,
+          "aliases": [
+            "Video Game Console",
+            "switch",
+            "nintendo switch",
+            "ps5",
+            "playstation",
+            "xbox",
+            "video game",
+            "console",
+            "Xbox Series X and Series S"
+          ],
+          "articles": [
+            "Nintendo Switch 2",
+            "PlayStation 5",
+            "Xbox Series X and Series S"
+          ],
+          "points": 52
+        },
+        {
+          "label": "Headphones",
+          "views": 57911,
+          "excess": 10422,
+          "aliases": [
+            "Headphones",
+            "airpods",
+            "earbuds",
+            "AirPods",
+            "headphone",
+            "circumaural headphones",
+            "over-ear headphones",
+            "supra-aural headphones",
+            "on-ear headphones",
+            "headphones"
+          ],
+          "articles": [
+            "AirPods",
+            "Headphones"
+          ],
+          "points": 10
+        },
+        {
+          "label": "Chocolate",
+          "views": 62388,
+          "excess": 7933,
+          "aliases": [
+            "Chocolate",
+            "candy",
+            "chocolates",
+            "chocolate"
+          ],
+          "articles": [
+            "Chocolate"
+          ],
+          "points": 8
+        },
+        {
+          "label": "Perfume / Cologne",
+          "views": 107116,
+          "excess": 6673,
+          "aliases": [
+            "Perfume / Cologne",
+            "Perfume",
+            "Cologne",
+            "perfume",
+            "cologne",
+            "parfum",
+            "fragrance",
+            "Kreisfreie Stadt Köln",
+            "Cologne, Germany",
+            "Kölle",
+            "Colonia Claudia Ara Agrippinensium - in Laitn"
+          ],
+          "articles": [
+            "Perfume",
+            "Cologne"
+          ],
+          "points": 7
+        },
+        {
+          "label": "Gift Card",
+          "views": 8581,
+          "excess": 4442,
+          "aliases": [
+            "Gift Card",
+            "gift cards",
+            "money",
+            "cash",
+            "gift card",
+            "gift certificate"
+          ],
+          "articles": [
+            "Gift card"
+          ],
+          "points": 5
+        },
+        {
+          "label": "Candles",
+          "views": 16793,
+          "excess": 3408,
+          "aliases": [
+            "Candles",
+            "candle",
+            "candles"
+          ],
+          "articles": [
+            "Candle"
+          ],
+          "points": 4
+        },
+        {
+          "label": "Phone",
+          "views": 62528,
+          "excess": 3126,
+          "aliases": [
+            "Phone",
+            "iphone",
+            "cell phone",
+            "smartphone",
+            "smart phone",
+            "smartphones"
+          ],
+          "articles": [
+            "Smartphone"
+          ],
+          "points": 4
+        },
+        {
+          "label": "Books",
+          "views": 46333,
+          "excess": 2317,
+          "aliases": [
+            "Books",
+            "book",
+            "books"
+          ],
+          "articles": [
+            "Book"
+          ],
+          "points": 3
+        },
+        {
+          "label": "Pajamas",
+          "views": 10787,
+          "excess": 2191,
+          "aliases": [
+            "Pajamas",
+            "pjs",
+            "christmas pajamas",
+            "pyjamas",
+            "PJs",
+            "jimmies",
+            "jimjams",
+            "jammies",
+            "comfies",
+            "lounges",
+            "pajamas"
+          ],
+          "articles": [
+            "Pajamas"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Socks",
+          "views": 8376,
+          "excess": 1602,
+          "aliases": [
+            "Socks",
+            "sock",
+            "fuzzy socks",
+            "socks"
+          ],
+          "articles": [
+            "Sock"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Clothes",
+          "views": 31011,
+          "excess": 1551,
+          "aliases": [
+            "Clothes",
+            "clothing",
+            "sweater",
+            "apparel",
+            "garment",
+            "dress",
+            "wear",
+            "attire",
+            "vestment",
+            "clothes",
+            "costume",
+            "garments",
+            "garb"
+          ],
+          "articles": [
+            "Clothing"
+          ],
+          "points": 2
+        },
+        {
+          "label": "Board Games",
+          "views": 19523,
+          "excess": 1096,
+          "aliases": [
+            "Board Games",
+            "board game",
+            "boardgame"
+          ],
+          "articles": [
+            "Board game"
+          ],
+          "points": 1
+        },
+        {
+          "label": "Jewelry",
+          "views": 17832,
+          "excess": 892,
+          "aliases": [
+            "Jewelry",
+            "jewellery",
+            "necklace",
+            "earrings",
+            "jewelry"
+          ],
+          "articles": [
+            "Jewellery"
+          ],
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

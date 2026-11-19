@@ -1,0 +1,12 @@
+# One-click deploy on Render (free plan): New -> Blueprint -> select this repo.
+services:
+  - type: web
+    name: sleigh-says
+    runtime: node
+    plan: free
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
