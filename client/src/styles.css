@@ -387,6 +387,13 @@ button.chip:hover svg { transform: translateY(-3px) rotate(-3deg); }
   font-size: 1.35em;
 }
 .slot.revealed .slot-back { animation: shine 1.2s 0.4s var(--ease-out); }
+/* Safari (and some Chrome builds) draw a face's shadowed/layered children even when
+   the face is turned away, which mirrored the ornament numbers onto revealed tiles.
+   Hide the children's backs too, and drop the front entirely once the flip passes halfway. */
+.slot-front * { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.slot-front { transform: translateZ(1px); transition: visibility 0s linear 0s; }
+.slot.revealed .slot-front { visibility: hidden; transition: visibility 0s linear 0.3s; }
+.slot-back { z-index: 1; }
 
 /* ---------- team panels ---------- */
 .team-panel { padding: 1em; display: flex; flex-direction: column; gap: 0.6em; min-height: 0; border-top: 6px solid var(--team-c); transition: box-shadow 0.4s, transform 0.4s var(--ease-spring); }
