@@ -3,3 +3,6 @@ dist
 .DS_Store
 *.log
 .cache
+
+# strike sound auditions (pick one, copy it to audio/sfx/strike.mp3)
+client/public/audio/candidates/

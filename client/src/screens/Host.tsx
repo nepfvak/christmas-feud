@@ -2,8 +2,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import QRCode from "qrcode";
 import type { CreateResult, GameSnapshot, HostAction, HostSecret, PublicPlayer, TeamId } from "../../../shared/types";
 import { emitAck, hostSession, resetGameState, serverNow, socket, takeNewEvents, useGame } from "../socket";
-import { isMuted, setMuted, speak, unlockAudio } from "../audio";
-import { hasClip, playSfx, playVoice, preloadClips, type VoiceId } from "../clips";
+import { isMuted, setMuted, unlockAudio } from "../audio";
+import { announce, playSfx, preloadClips, type Step, type VoiceId } from "../clips";
 import { Avatar } from "../components/Avatar";
 import { Board, Confetti, Logo, PlayerChip, Snow, StrikeFlash, StrikeRow, TimerRing, secondsLeft } from "../components/ui";
 
@@ -80,57 +80,50 @@ function useHostSounds(snap: GameSnapshot | null, voice: boolean) {
 
   useEffect(() => {
     const r = snap?.round;
-    const say = (id: VoiceId, delay = 0, tts = false) => voice && setTimeout(() => playVoice(id, { tts }), delay);
+    // voice lines respect the host's Voice toggle; music stingers always play
+    const v = (id: VoiceId, tts = false): Step[] => (voice ? [{ voice: id, tts }] : []);
     for (const e of takeNewEvents(snap, seen)) {
       switch (e.type) {
         case "reveal":
           playSfx("reveal");
           if (e.team != null) {
-            if (e.slot === 0) say("topAnswer", 500);
-            else if (Math.random() < 0.35) say("goodAnswer", 500);
+            if (e.slot === 0) announce(v("topAnswer"), { ifIdle: true });
+            else if (Math.random() < 0.35) announce(v("goodAnswer"), { ifIdle: true });
           }
           break;
         case "fmReveal": playSfx("reveal"); break;
         case "strike":
           playSfx("strike");
-          if (r?.lastGuess?.result === "timeout") say("timesUp", 400);
+          if (r?.lastGuess?.result === "timeout") announce(v("timesUp"), { ifIdle: true });
           break;
         case "buzz": playSfx("buzz"); break;
         case "dupe": playSfx("dupe"); break;
-        case "fmDupe": playSfx("dupe"); say("tryAgain", 200); break;
+        case "fmDupe": playSfx("dupe"); announce(v("tryAgain"), { ifIdle: true }); break;
         case "join": case "control": playSfx("yourTurn"); break;
         case "faceoffWin":
           playSfx("yourTurn");
-          if (snap?.phase === "playOrPass") say("playOrPass", 900);
+          if (snap?.phase === "playOrPass") announce(v("playOrPass"));
           break;
         case "roundStart":
-          playSfx("theme");
-          if (r?.suddenDeath) say("suddenDeath", 1500, true);
-          else if (r?.number === 1) { say("welcome", 150); say("round1", 2300); }
-          else if (r) say(`round${Math.min(r.number, 4)}` as VoiceId, 1500);
+          // the round call-out runs during the 3s intro card; "Face-off!" + the question queue up behind it
+          if (!voice) announce([{ sfx: "theme" }], { interrupt: true });
+          else if (r?.suddenDeath) announce(v("suddenDeath", true), { interrupt: true });
+          else if (r?.number === 1) announce([...v("welcome"), ...v("round1")], { interrupt: true });
+          else if (r) announce(v(`round${Math.min(r.number, 4)}` as VoiceId), { interrupt: true });
           break;
         case "stealStart":
           // the 3rd lump of coal arrives in the same update as the steal
           playSfx("strike");
-          say("coal", 700);
-          say("steal", 1700, true);
+          announce([...v("coal"), ...v("steal", true)]);
           break;
-        case "roundWin": if (e.team != null) playSfx("fanfare"); break;
-        case "gameWin":
-          playSfx("fanfare");
-          setTimeout(() => playSfx("theme"), 1400);
-          say("winner", 600, true);
-          break;
-        case "fmWin":
-          playSfx("fanfare");
-          setTimeout(() => playSfx("theme"), 1400);
-          say("sprintWin", 600, true);
-          break;
+        case "roundWin": if (e.team != null) announce([{ sfx: "fanfare" }]); break;
+        case "gameWin": announce([...v("winner", true), { sfx: "fanfare" }, { sfx: "theme" }], { interrupt: true }); break;
+        case "fmWin": announce([...v("sprintWin", true), { sfx: "fanfare" }], { interrupt: true }); break;
+        case "fmLose": announce([{ sfx: "sad" }], { interrupt: true }); break;
         case "fmZero": playSfx("zero"); break;
-        case "fmLose": playSfx("sad"); break;
         case "fmStart":
           playSfx("yourTurn");
-          if (!e.playerId) say("sprint", 500, true); // the intro, not each player's turn
+          if (!e.playerId) announce(v("sprint", true), { interrupt: true }); // the intro, not each player's turn
           break;
       }
     }
@@ -138,19 +131,15 @@ function useHostSounds(snap: GameSnapshot | null, voice: boolean) {
 
   // "The sleigh says..." before the Snowball Sprint answers flip
   useEffect(() => {
-    if (voice && snap?.phase === "fmReveal") playVoice("sleighSays");
+    if (voice && snap?.phase === "fmReveal") announce([{ voice: "sleighSays" }], { interrupt: true });
   }, [snap?.phase, snap?.fm?.turn]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  // "Face-off!" then read each new question aloud once
+  // "Face-off!" then read each new question aloud once (queued after the round call-out)
   useEffect(() => {
     const q = snap?.round?.question;
     if (!voice || snap?.phase !== "faceoff" || !q || lastSpoken.current === q) return;
     lastSpoken.current = q;
-    const read = () => speak(q.replace(/\.$/, ""));
-    if (hasClip("faceoff")) {
-      playVoice("faceoff");
-      setTimeout(read, 1000);
-    } else read();
+    announce([{ voice: "faceoff" }, { speak: q.replace(/\.$/, "") }]);
   }, [snap?.phase, snap?.round?.question, voice]);
 
   // countdown ticks for the last five seconds

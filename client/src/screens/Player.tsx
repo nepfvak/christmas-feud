@@ -4,7 +4,7 @@ import { MAX_NAME } from "../../../shared/types";
 import { randomAvatar, sanitizeAvatar } from "../../../shared/avatar";
 import { emitAck, playerSession, resetGameState, serverNow, socket, takeNewEvents, useGame, useTicker, type FmProgress } from "../socket";
 import { unlockAudio, vibrate } from "../audio";
-import { playSfx } from "../clips";
+import { playSfx, preloadClips } from "../clips";
 import { Avatar } from "../components/Avatar";
 import { AvatarEditor } from "../components/AvatarEditor";
 import { Logo, Snow, StrikeRow, TimerRing } from "../components/ui";
@@ -216,6 +216,8 @@ function Controller({ snap, me, fmProgress, connected, onLeave }: { snap: GameSn
   const self = snap.players.find((p) => p.id === me)!;
   const team = self.team ?? 0;
   const toast = useMyFeedback(snap, me);
+  // phones only need two recorded sounds
+  useEffect(() => void preloadClips({ sfx: ["yourTurn", "dupe"] }), []);
   return (
     <Shell className={`team-${team}-phone`}>
       <header className="phone-top">
