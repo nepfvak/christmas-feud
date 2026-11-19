@@ -1,5 +1,7 @@
 # 🎄 Sleigh Says!
 
+**▶ Play now: https://sleigh-says.onrender.com** (open `/host` on the big screen)
+
 A multiplayer, in-browser **holiday survey game show** for classrooms and school events.
 One laptop drives the big screen (projector/TV); everyone else plays on their phone, Kahoot-style.
 
