@@ -50,7 +50,10 @@ npm run typecheck
 The whole game is one small Node.js process, so any free Node host works.
 
 ### Option A: Render (recommended, free)
-1. Push this folder to a GitHub repository.
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/nepfvak/christmas-feud)
+
+1. Push this folder to a GitHub repository (or click the button above for this one).
 2. Go to [render.com](https://render.com) → **New → Blueprint** → pick your repo. It reads `render.yaml` automatically.
    (Or **New → Web Service** with build command `npm ci && npm run build` and start command `npm start`.)
 3. You get a URL like `https://sleigh-says.onrender.com`. Open `/host` on it.
